@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title> - 博博拾光</title><meta name="Description" content=""><meta property="og:title" content="" />
-<meta property="og:description" content="[toc] 安装mysql 1. 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv" />
+        <title>mysql安装 - 博博拾光</title><meta name="Description" content=""><meta property="og:title" content="mysql安装" />
+<meta property="og:description" content="[toc] 安装mysql 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv mysql-5.7.40-el7-x86_64" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" /><meta property="og:image" content="https://zhtdbobo.github.io/morentouxiang.png"/><meta property="article:section" content="posts" />
 
@@ -13,19 +13,19 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://zhtdbobo.github.io/morentouxiang.png"/>
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="[toc] 安装mysql 1. 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv"/>
+<meta name="twitter:title" content="mysql安装"/>
+<meta name="twitter:description" content="[toc] 安装mysql 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv mysql-5.7.40-el7-x86_64"/>
 <meta name="application-name" content="博博拾光">
-<meta name="apple-mobile-web-app-title" content="博博拾光"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" /><link rel="prev" href="https://zhtdbobo.github.io/redis/" /><link rel="next" href="https://zhtdbobo.github.io/tomcat9/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="博博拾光"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" /><link rel="prev" href="https://zhtdbobo.github.io/redis/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
+        "headline": "mysql安装",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhtdbobo.github.io\/mysql%E5%AE%89%E8%A3%85\/"
-        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  1277 ,
+        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  1256 ,
         "url": "https:\/\/zhtdbobo.github.io\/mysql%E5%AE%89%E8%A3%85\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/zhtdbobo.github.io\/images\/avatar.png"},"author": {
@@ -98,11 +98,11 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"></h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">mysql安装</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1277 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/mysql%E5%AE%89%E8%A3%85/" class="leancloud_visitors" data-flag-title="">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1256 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/mysql%E5%AE%89%E8%A3%85/" class="leancloud_visitors" data-flag-title="mysql安装">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -110,45 +110,12 @@
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#1-将下载好的mysql上传到服务器">1. 将下载好的mysql上传到服务器</a></li>
-        <li><a href="#2-检查是否安装了mysql和mariadb">2. 检查是否安装了mysql和mariadb</a></li>
-        <li><a href="#3-安装需要的依赖包">3. 安装需要的依赖包</a></li>
-        <li><a href="#4-创建mysql安装目录和数据存放目录并授权">4. 创建MySQL安装目录和数据存放目录，并授权</a></li>
-        <li><a href="#5-创建mysql组创建mysql用户并设置密码">5. 创建MySQL组：创建MySQL用户，并设置密码。</a></li>
-        <li><a href="#6-将mysql目录的权限授给mysql用户和mysql组">6. 将mysql目录的权限授给mysql用户和mysql组</a></li>
-        <li><a href="#7-创建mysql的安装初始化配置文件">7. 创建MySQL的安装初始化配置文件</a></li>
-        <li><a href="#8-安装mysql">8. 安装mysql</a></li>
-        <li><a href="#9-启动mysql">9. 启动mysql</a></li>
-        <li><a href="#10-将mysql加入系统进程中">10. 将MySQL加入系统进程中</a></li>
-        <li><a href="#11-修改mysql密码">11. 修改mysql密码</a></li>
-        <li><a href="#12-设置远程登录">12. 设置远程登录</a></li>
-        <li><a href="#13-退出mysql并重启服务">13. 退出MySQL	并重启服务</a></li>
-        <li><a href="#14-删除已经安装的yum包">14. 删除已经安装的yum包</a></li>
-      </ul>
-    </li>
-  </ul>
-
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#1-将mysql-udf-http的targz文件上传到服务器homesoftware文件夹下并进入文件夹">1. 将mysql-udf-http的tar.gz文件上传到服务器/home/software文件夹下，并进入文件夹</a></li>
-        <li><a href="#2-配置">2. 配置</a></li>
-        <li><a href="#3-编译并安装">3. 编译并安装</a></li>
-        <li><a href="#4-安装好的插件在这里需要进行移动到plugin目录下否则加载不到无法创建函数">4. 安装好的插件在这里，需要进行移动到plugin目录下，否则加载不到无法创建函数</a></li>
-        <li><a href="#5-在navicat中远程连接数据库新建查询执行下面命令添加函数">5. 在navicat中远程连接数据库，新建查询执行下面命令添加函数</a></li>
-        <li><a href="#6-在navicat检查是否安装成功">6. 在navicat检查是否安装成功，</a></li>
-        <li><a href="#7-删除已经安装的yum包">7. 删除已经安装的yum包</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav></div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
             </div><div class="content" id="content"><p>[toc]</p>
 <h1 id="安装mysql">安装mysql</h1>
-<h3 id="1-将下载好的mysql上传到服务器">1. 将下载好的mysql上传到服务器</h3>
+<ol>
+<li>将下载好的mysql上传到服务器</li>
+</ol>
 <ul>
 <li>将mysql的tar.gz文件上传到服务器/home/software文件夹下
 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
@@ -156,7 +123,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <li>mv mysql-5.7.40-el7-x86_64 mysql
 重命名</li>
 </ul>
-<h3 id="2-检查是否安装了mysql和mariadb">2. 检查是否安装了mysql和mariadb</h3>
+<ol start="2">
+<li>检查是否安装了mysql和mariadb</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -176,7 +145,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">	rpm -e --nodeps mariadb-libs-5.5.68-1.el7.x86_64
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="3-安装需要的依赖包">3. 安装需要的依赖包</h3>
+</div><ol start="3">
+<li>安装需要的依赖包</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -185,7 +156,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">	yum -y install libaio
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="4-创建mysql安装目录和数据存放目录并授权">4. 创建MySQL安装目录和数据存放目录，并授权</h3>
+</div><ol start="4">
+<li>创建MySQL安装目录和数据存放目录，并授权</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -202,7 +175,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	chmod -R 777 /usr/local/mysql/mysqldb/
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="5-创建mysql组创建mysql用户并设置密码">5. 创建MySQL组：创建MySQL用户，并设置密码。</h3>
+</div><ol start="5">
+<li>创建MySQL组：创建MySQL用户，并设置密码。</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -217,7 +192,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	jMsHt!5@4#3$2%1
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="6-将mysql目录的权限授给mysql用户和mysql组">6. 将mysql目录的权限授给mysql用户和mysql组</h3>
+</div><ol start="6">
+<li>将mysql目录的权限授给mysql用户和mysql组</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -226,7 +203,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">	chown -R mysql:mysql /usr/local/mysql
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="7-创建mysql的安装初始化配置文件">7. 创建MySQL的安装初始化配置文件</h3>
+</div><ol start="7">
+<li>创建MySQL的安装初始化配置文件</li>
+</ol>
 <ul>
 <li>vim /etc/my.cnf
 配置文件</li>
@@ -291,7 +270,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </div>
 </div></li>
 </ul>
-<h3 id="8-安装mysql">8. 安装mysql</h3>
+<ol start="8">
+<li>安装mysql</li>
+</ol>
 <ul>
 <li>cd /usr/local/mysql/mysql/bin/</li>
 <li>./mysqld &ndash;initialize &ndash;console
@@ -308,7 +289,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </ul>
 </li>
 </ul>
-<h3 id="9-启动mysql">9. 启动mysql</h3>
+<ol start="9">
+<li>启动mysql</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -348,7 +331,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	chmod -R 777 /usr/local/mysql/mysqldb/
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="10-将mysql加入系统进程中">10. 将MySQL加入系统进程中</h3>
+</div><ol start="10">
+<li>将MySQL加入系统进程中</li>
+</ol>
 <ul>
 <li>cp mysql.server /etc/init.d/mysqld</li>
 <li>service mysqld restart
@@ -365,7 +350,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <li>systemctl enable mysqld
 开机自启</li>
 </ul>
-<h3 id="11-修改mysql密码">11. 修改mysql密码</h3>
+<ol start="11">
+<li>修改mysql密码</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -378,7 +365,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	ALTER USER &#39;root&#39;@&#39;localhost&#39; IDENTIFIED WITH mysql_native_password BY &#39;!5@4#3$2%1&#39;;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="12-设置远程登录">12. 设置远程登录</h3>
+</div><ol start="12">
+<li>设置远程登录</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -391,7 +380,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	flush privileges;
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="13-退出mysql并重启服务">13. 退出MySQL	并重启服务</h3>
+</div><ol start="13">
+<li>退出MySQL	并重启服务</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -402,7 +393,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	service mysqld restart
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="14-删除已经安装的yum包">14. 删除已经安装的yum包</h3>
+</div><ol start="14">
+<li>删除已经安装的yum包</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -414,7 +407,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </div><hr>
 <hr>
 <h1 id="mysql的http插件扩展">mysql的http插件扩展</h1>
-<h3 id="1-将mysql-udf-http的targz文件上传到服务器homesoftware文件夹下并进入文件夹">1. 将mysql-udf-http的tar.gz文件上传到服务器/home/software文件夹下，并进入文件夹</h3>
+<ol>
+<li>将mysql-udf-http的tar.gz文件上传到服务器/home/software文件夹下，并进入文件夹</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -425,7 +420,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	cd mysql-udf-http-1.0
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="2-配置">2. 配置</h3>
+</div><ol start="2">
+<li>配置</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -457,7 +454,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </ul>
 </li>
 </ul>
-<h3 id="3-编译并安装">3. 编译并安装</h3>
+<ol start="3">
+<li>编译并安装</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -466,7 +465,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">	make &amp; make install
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="4-安装好的插件在这里需要进行移动到plugin目录下否则加载不到无法创建函数">4. 安装好的插件在这里，需要进行移动到plugin目录下，否则加载不到无法创建函数</h3>
+</div><ol start="4">
+<li>安装好的插件在这里，需要进行移动到plugin目录下，否则加载不到无法创建函数</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -477,7 +478,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span><span class="line"><span class="cl">	mv mysql-udf-http.* plugin/
 </span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="5-在navicat中远程连接数据库新建查询执行下面命令添加函数">5. 在navicat中远程连接数据库，新建查询执行下面命令添加函数</h3>
+</div><ol start="5">
+<li>在navicat中远程连接数据库，新建查询执行下面命令添加函数</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -492,7 +495,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 </span></span></span><span class="line"><span class="cl"><span class="w">	</span><span class="k">create</span><span class="w"> </span><span class="k">function</span><span class="w"> </span><span class="n">http_delete</span><span class="w"> </span><span class="k">returns</span><span class="w"> </span><span class="n">string</span><span class="w"> </span><span class="n">soname</span><span class="w"> </span><span class="s1">&#39;mysql-udf-http.so&#39;</span><span class="p">;</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
-</div><h3 id="6-在navicat检查是否安装成功">6. 在navicat检查是否安装成功，</h3>
+</div><ol start="6">
+<li>在navicat检查是否安装成功，</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -514,7 +519,9 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
 <li>具体用法见<a href="http://zyan.cc/mysql-udf-http/" target="_blank" rel="noopener noreffer">这里</a>
 </li>
 </ul>
-<h3 id="7-删除已经安装的yum包">7. 删除已经安装的yum包</h3>
+<ol start="7">
+<li>删除已经安装的yum包</li>
+</ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -571,7 +578,7 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
                             <a class="link-to-markdown" href="/mysql%E5%AE%89%E8%A3%85/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title=""><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title=""><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title=""><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title="" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title="mysql安装"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title="mysql安装"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title="mysql安装"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" data-title="mysql安装" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
@@ -583,8 +590,7 @@ tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz
         </section>
     </div>
 
-    <div class="post-nav"><a href="/redis/" class="prev" rel="prev" title=""><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i></a>
-            <a href="/tomcat9/" class="next" rel="next" title=""><i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/redis/" class="prev" rel="prev" title="redis"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>redis</a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.

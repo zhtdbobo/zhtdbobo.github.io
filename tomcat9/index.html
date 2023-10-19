@@ -4,8 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title> - 博博拾光</title><meta name="Description" content=""><meta property="og:title" content="" />
-<meta property="og:description" content="下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv apache-tomcat-9.0.62 tomcat9 mv tomcat9/ /usr/local/" />
+        <title>tomcat9 - 博博拾光</title><meta name="Description" content=""><meta property="og:title" content="tomcat9" />
+<meta property="og:description" content="[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhtdbobo.github.io/tomcat9/" /><meta property="og:image" content="https://zhtdbobo.github.io/morentouxiang.png"/><meta property="article:section" content="posts" />
 
@@ -13,19 +13,19 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://zhtdbobo.github.io/morentouxiang.png"/>
 
-<meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv apache-tomcat-9.0.62 tomcat9 mv tomcat9/ /usr/local/"/>
+<meta name="twitter:title" content="tomcat9"/>
+<meta name="twitter:description" content="[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv"/>
 <meta name="application-name" content="博博拾光">
-<meta name="apple-mobile-web-app-title" content="博博拾光"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/tomcat9/" /><link rel="prev" href="https://zhtdbobo.github.io/mysql%E5%AE%89%E8%A3%85/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="博博拾光"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/tomcat9/" /><link rel="prev" href="https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/" /><link rel="next" href="https://zhtdbobo.github.io/redis/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
-        "headline": "",
+        "headline": "tomcat9",
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhtdbobo.github.io\/tomcat9\/"
-        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","wordcount":  776 ,
+        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "tomcat","wordcount":  805 ,
         "url": "https:\/\/zhtdbobo.github.io\/tomcat9\/","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/zhtdbobo.github.io\/images\/avatar.png"},"author": {
@@ -98,11 +98,11 @@
                 <div class="container"><div class="toc" id="toc-auto">
             <h2 class="toc-title">目录</h2>
             <div class="toc-content" id="toc-content-auto"></div>
-        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX"></h1><div class="post-meta">
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">tomcat9</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
 </span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 776 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/tomcat9/" class="leancloud_visitors" data-flag-title="">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="0001-01-01">0001-01-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 805 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/tomcat9/" class="leancloud_visitors" data-flag-title="tomcat9">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -110,8 +110,21 @@
                     <span>目录</span>
                     <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
                 </div>
-                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents"></nav></div>
-            </div><div class="content" id="content"><ol>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#同时运行多个tomcat">同时运行多个tomcat</a></li>
+        <li><a href="#设置开机自启">设置开机自启</a></li>
+        <li><a href="#配置支持https">配置支持https</a></li>
+        <li><a href="#使用tomcat作为上传文件服务器">使用tomcat作为上传文件服务器</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><p>[toc]</p>
+<h1 id="基础安装">基础安装</h1>
+<ol>
 <li>下载tomcat。官网</li>
 <li>检查linux是否安装tomcat
 <div class="highlight"><div class="chroma">
@@ -151,7 +164,11 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
-<li>同时运行多个tomcat，修改端口号不一样即可（shutdown， http ，https）
+</ol>
+<h1 id="扩展配置">扩展配置</h1>
+<h3 id="同时运行多个tomcat">同时运行多个tomcat</h3>
+<ul>
+<li>修改端口号不一样即可（shutdown， http ，https）
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
@@ -165,46 +182,92 @@
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
-<li>设置开机自启
-cd /etc/init.d
-vim tomcat9
-复制以下代码：保存退出
-#!/bin/bash</li>
+</ul>
+<h3 id="设置开机自启">设置开机自启</h3>
+<ol>
+<li>切换目录
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">cd /etc/init.d
+</span></span><span class="line"><span class="cl">vim tomcat9
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+<li>复制以下代码：保存退出</li>
 </ol>
-<h1 id="description-tomcat-start-stop-restart">description: Tomcat Start Stop Restart</h1>
-<h1 id="processname-tomcat">processname: tomcat</h1>
-<h1 id="chkconfig-2345-20-80">chkconfig: 2345 20 80</h1>
-<p>#idea - tomcat config start
-#!/bin/bash</p>
-<h1 id="description-tomcat-start-stop-restart-1">description: Tomcat Start Stop Restart</h1>
-<h1 id="processname-tomcat-1">processname: tomcat</h1>
-<h1 id="chkconfig-2345-20-80-1">chkconfig: 2345 20 80</h1>
-<p>JAVA_HOME=/usr/local/java/jdk
-export JAVA_HOME
-PATH=$JAVA_HOME/bin:$PATH
-export PATH
-CATALINA_HOME=/usr/local/tomcat9
-case $1 in
-start)
-sh $CATALINA_HOME/bin/startup.sh
-;;
-stop)
-sh $CATALINA_HOME/bin/shutdown.sh
-;;
-restart)
-sh $CATALINA_HOME/bin/shutdown.sh
-sh $CATALINA_HOME/bin/startup.sh
-;;
-esac
-exit 0
-为 tomcat 分配可执行权限：chmod +x tomcat9
-添加 tomcat 为系统服务：chkconfig &ndash;add tomcat9
-输入命令查看是否添加成功： chkconfig &ndash;list
-启动 tomcat命令：service tomcat9 start
-6. 使用浏览器访问服务器的8080端口是否有tomcat主页出现
-7. 配置支持https
-1.上传ssl的ks证书到服务器，如jaridli.top.jks
-2.修改conf/server.xml，配置http连接和https连接
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span><span class="lnt">24
+</span><span class="lnt">25
+</span><span class="lnt">26
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">	# description: Tomcat Start Stop Restart
+</span></span><span class="line"><span class="cl">	# processname: tomcat
+</span></span><span class="line"><span class="cl">	# chkconfig: 2345 20 80
+</span></span><span class="line"><span class="cl">	#idea - tomcat config start 
+</span></span><span class="line"><span class="cl">	#!/bin/bash
+</span></span><span class="line"><span class="cl">	# description: Tomcat Start Stop Restart
+</span></span><span class="line"><span class="cl">	# processname: tomcat
+</span></span><span class="line"><span class="cl">	# chkconfig: 2345 20 80
+</span></span><span class="line"><span class="cl">	JAVA_HOME=/usr/local/java/jdk
+</span></span><span class="line"><span class="cl">	export JAVA_HOME
+</span></span><span class="line"><span class="cl">	PATH=$JAVA_HOME/bin:$PATH
+</span></span><span class="line"><span class="cl">	export PATH
+</span></span><span class="line"><span class="cl">	CATALINA_HOME=/usr/local/tomcat9
+</span></span><span class="line"><span class="cl">	case $1 in
+</span></span><span class="line"><span class="cl">	start)
+</span></span><span class="line"><span class="cl">	sh $CATALINA_HOME/bin/startup.sh
+</span></span><span class="line"><span class="cl">	;;
+</span></span><span class="line"><span class="cl">	stop)
+</span></span><span class="line"><span class="cl">	sh $CATALINA_HOME/bin/shutdown.sh
+</span></span><span class="line"><span class="cl">	;;
+</span></span><span class="line"><span class="cl">	restart)
+</span></span><span class="line"><span class="cl">	sh $CATALINA_HOME/bin/shutdown.sh
+</span></span><span class="line"><span class="cl">	sh $CATALINA_HOME/bin/startup.sh
+</span></span><span class="line"><span class="cl">	;;
+</span></span><span class="line"><span class="cl">	esac
+</span></span><span class="line"><span class="cl">	exit 0
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ol start="3">
+<li>为 tomcat 分配可执行权限：chmod +x tomcat9</li>
+<li>添加 tomcat 为系统服务：chkconfig &ndash;add tomcat9</li>
+<li>输入命令查看是否添加成功： chkconfig &ndash;list</li>
+<li>启动 tomcat命令：service tomcat9 start</li>
+<li>使用浏览器访问服务器的8080端口是否有tomcat主页出现</li>
+</ol>
+<h3 id="配置支持https">配置支持https</h3>
+<ol>
+<li>上传ssl的ks证书到服务器，如jaridli.top.jks</li>
+<li>修改conf/server.xml，配置http连接和https连接
 redirectPort是让一个端口直接重定向到另外一个
 <Connector port="8080" protocol="HTTP/1.1"
 connectionTimeout="20000"
@@ -212,8 +275,8 @@ redirectPort="8443" />
 <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true" 
 maxThreads="150" scheme="https" secure="true" 
 keystoreFile="*******/jaridli.top.jks" 
-keystorePass="****" clientAuth="false"/>
-3.修改conf/web.xml，使HTTP 自动跳转 HTTPS，在结束标签</welcome-file-list> 后面换行，并添加以下内容，重启tomcat
+keystorePass="****" clientAuth="false"/></li>
+<li>修改conf/web.xml，使HTTP 自动跳转 HTTPS，在结束标签</welcome-file-list> 后面换行，并添加以下内容，重启tomcat
 <login-config>
 <!-- Authorization setting for SSL -->
 <auth-method>CLIENT-CERT</auth-method>
@@ -228,20 +291,23 @@ keystorePass="****" clientAuth="false"/>
 <user-data-constraint>
 <transport-guarantee>CONFIDENTIAL</transport-guarantee>
 </user-data-constraint>
-</security-constraint></p>
-<p>使用tomcat作为上传文件服务器
-1.tomcat服务器默认是不可写操作，只允许读，所以在conf/web.xml文件中的servlet标签内加入readonly：false,重启tomcat
+</security-constraint></li>
+</ol>
+<h3 id="使用tomcat作为上传文件服务器">使用tomcat作为上传文件服务器</h3>
+<ol>
+<li>tomcat服务器默认是不可写操作，只允许读，所以在conf/web.xml文件中的servlet标签内加入readonly：false,重启tomcat
 <init-param>
 <param-name>readonly</param-name>
 <param-value>false</param-value>
-</init-param>
-2.创建自己需要上传到的目的文件夹，并上传一张图片用于测试
-3.修改conf/server.xml，配置目的文件夹和外网访问路径的映射，在末尾host标签内添加如下配置，并重启服务器
+</init-param></li>
+<li>创建自己需要上传到的目的文件夹，并上传一张图片用于测试</li>
+<li>修改conf/server.xml，配置目的文件夹和外网访问路径的映射，在末尾host标签内添加如下配置，并重启服务器
 <Context docBase ="/home/img/logo/" path ="/logo" debug ="0" reloadable ="true"/>
 参数说明：
 docBase =&ldquo;图片的真实放置的路径文件夹&rdquo;
-path=&ldquo;外网访问的路径&rdquo;
-4.在浏览器访问服务器ip:8080/外网访问路径/文件名称</p>
+path=&ldquo;外网访问的路径&rdquo;</li>
+<li>在浏览器访问服务器ip:8080/外网访问路径/文件名称</li>
+</ol>
 </div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
@@ -253,19 +319,20 @@ path=&ldquo;外网访问的路径&rdquo;
                             <a class="link-to-markdown" href="/tomcat9/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/tomcat9/" data-title=""><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/tomcat9/"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/tomcat9/" data-title=""><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/tomcat9/" data-title=""><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/tomcat9/" data-title="" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/tomcat9/" data-title="tomcat9" data-hashtags="tomcat"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/tomcat9/" data-hashtag="tomcat"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/tomcat9/" data-title="tomcat9"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/tomcat9/" data-title="tomcat9"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/tomcat9/" data-title="tomcat9" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/tomcat/">tomcat</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/mysql%E5%AE%89%E8%A3%85/" class="prev" rel="prev" title=""><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i></a></div>
+    <div class="post-nav"><a href="/%E5%A4%A7%E9%A2%98/" class="prev" rel="prev" title="大题"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>大题</a>
+            <a href="/redis/" class="next" rel="next" title="redis">redis<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="valine" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://valine.js.org/">Valine</a>.
