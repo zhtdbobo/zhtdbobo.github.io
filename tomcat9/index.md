@@ -71,11 +71,11 @@
 ### 配置支持https
 1. 上传ssl的ks证书到服务器，如jaridli.top.jks
 2. 修改conf/server.xml，配置http连接和https连接
-redirectPort是让一个端口直接重定向到另外一个
-<Connector port="8080" protocol="HTTP/1.1"
+   redirectPort是让一个端口直接重定向到另外一个
+   <Connector port="8080" protocol="HTTP/1.1"
                connectionTimeout="20000"
                redirectPort="8443" />
-<Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true" 
+   <Connector port="8443" protocol="HTTP/1.1" SSLEnabled="true" 
                maxThreads="150" scheme="https" secure="true" 
                keystoreFile="*******/jaridli.top.jks" 
                keystorePass="****" clientAuth="false"/>

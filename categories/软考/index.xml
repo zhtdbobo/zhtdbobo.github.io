@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>软考 - 分类 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/</link>
+        <description>软考 - 分类 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>大题</title>
+    <link>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</link>
+    <pubDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</guid>
+    <description><![CDATA[[TOC] 数据流图DFD 基本图形 图形含义 数据流、加工、数据存储（文件）、外部实体 案例 分层 结构化、自定向下 数据字典 符号含义 数据平衡原则 父图和子图（如顶]]></description>
+</item>
+<item>
+    <title>选择题</title>
+    <link>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</link>
+    <pubDate>Sun, 15 Oct 2023 13:52:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
+    <description><![CDATA[[toc] 题目分布 上午场：75题（75分），45分及格 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式 计算机组成]]></description>
+</item>
+<item>
+    <title>题目中涉及但没学习到</title>
+    <link>https://zhtdbobo.github.io/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</link>
+    <pubDate>Fri, 12 May 2023 14:03:55 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</guid>
+    <description><![CDATA[病毒分类 引导区病毒 宏病毒 木马病毒 蠕虫病毒 如 震网病毒 语音采样频率大于等于工作频率的二倍，才能在以后恢复实际波形 接口设计主要依据需求分析阶段的数]]></description>
+</item>
+</channel>
+</rss>

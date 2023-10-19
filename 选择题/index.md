@@ -5,7 +5,7 @@
 # 题目分布
 1. 上午场：75题（75分），45分及格
 2. 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式
---- 
+---
 # 计算机组成原理
 1. 数据的表示
 	- 二进制、七进制、八进制、十进制、十六进制
@@ -25,12 +25,12 @@
 	- 移码
 		- 补码的首位取反
 		- 加减操作的表示结果正确
-	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412211446.png)
+		![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412211446.png)
 	- 浮点数运算
 		- 对阶
 		- 尾数计算
 		- 结果格式化
-	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412211859.png)
+		![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412211859.png)
 2. 计算机结构
 	- 运算器：只进行计算
     - 控制器：操作控制
@@ -52,7 +52,7 @@
 	- 周期计算
 		- $\Delta t$ : 一个流水线周期
         - k : 一个流水线有k个步骤，如下图分位3步（取指，分析，执行）
-	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412212752.png)
+		   ![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/20230412212752.png)
 	- 吞吐率TP
 		- $TP= \frac{指令条数}{流水线执行时间}$
 		- $TP_{max}= \frac{1}{\Delta t}$
@@ -149,7 +149,7 @@
 	- 前趋图和PV操作的结合
 4. 死锁问题
 	- 最少有多少个资源不会产生死锁
-	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E6%9C%80%E5%B0%91%E6%9C%89%E5%A4%9A%E5%B0%91%E4%B8%AA%E8%B5%84%E6%BA%90%E4%B8%8D%E4%BC%9A%E6%AD%BB%E9%94%81.png)
+		![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E6%9C%80%E5%B0%91%E6%9C%89%E5%A4%9A%E5%B0%91%E4%B8%AA%E8%B5%84%E6%BA%90%E4%B8%8D%E4%BC%9A%E6%AD%BB%E9%94%81.png)
 		- 如图，$3 * （5 - 1） + 1 = 13$
 	- 条件
 		- 互斥
@@ -276,7 +276,7 @@
 3. 范式
 	主属性：出现在候选键中的属性
 	非主属性：
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E8%8C%83%E5%BC%8F.png)
+	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E8%8C%83%E5%BC%8F.png)
 	|范式名称|说明|备注|
 	|:-:|:-:|:-:|
 	|1NF|属性值都是不可分的原子值||
@@ -307,7 +307,7 @@
 3. 增量备份：备份上一次备份之后变化的数据
 ### 数据仓库与数据挖掘
 1. 数据仓库
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93.png)
+	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E6%95%B0%E6%8D%AE%E4%BB%93%E5%BA%93.png)
 	- 面向主题
 	- 集成的
 	- 相对稳定的
@@ -618,12 +618,12 @@
 |不可抵赖性|数字签名|
 ### 加密技术
 1. 对称加密（公享密钥加密）
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86.png)
+	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86.png)
 	- 加密和解密一样
 	- 秘钥分发困难
 	- 加密强度不高
 2. 非对称加密（公开密钥加密）
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86.png)
+	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E9%9D%9E%E5%AF%B9%E7%A7%B0%E5%8A%A0%E5%AF%86.png)
 	- 加密和解密用的秘钥不一样，但是需要配对
 		- A的公钥加密，A的私钥解密
 		- A的私钥加密，A的公钥解密

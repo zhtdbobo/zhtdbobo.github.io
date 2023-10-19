@@ -18,7 +18,7 @@
 ```
 	rpm -e --nodeps mariadb-libs-5.5.68-1.el7.x86_64
 ```
-		
+
 3. 安装需要的依赖包
 ```
 	yum -y install libaio
@@ -77,12 +77,14 @@
 8. 安装mysql
 - cd /usr/local/mysql/mysql/bin/
 - ./mysqld --initialize --console
-	- 记录默认生成的mysql密码 	NFhGPyp2EW%f
+	- 记录默认生成的mysql密码 	
+	
+	  > 例如：NFhGPyp2EW%f
 	- ==如果 error while loading shared libraries: libnuma.so.1:==
-		- yum remove libnuma.so.1
-			卸载32位的
-		- yum -y install numactl.x86_64
-			安装64位的
+	  - yum remove libnuma.so.1
+	  	卸载32位的
+	  - yum -y install numactl.x86_64
+	  	安装64位的
 9. 启动mysql
 ```
 	cd ../support-files/
@@ -115,7 +117,7 @@
 ```
 	cd ../bin/
 	./mysql -u root -p	输入默认生成的mysql密码
-	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '!5@4#3$2%1';
+	ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY '密码';
 ```
 12. 设置远程登录
 ```

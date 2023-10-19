@@ -105,6 +105,6 @@
 		- 对象指针名 -> 数据成员名
 		- 对象指针名 -> 成员函数名（参数表）
 6. 虚函数
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/C++%E8%99%9A%E5%87%BD%E6%95%B0.png)
+	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/C++%E8%99%9A%E5%87%BD%E6%95%B0.png)
 	- virtual 实现运行时多态
 ### Java
