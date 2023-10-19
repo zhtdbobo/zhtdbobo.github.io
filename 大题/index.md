@@ -55,7 +55,7 @@
 1. 强调时间顺序
 ### 活动图
 ![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E6%B4%BB%E5%8A%A8%E5%9B%BE.png)
-1. 粗横线代表由并行的线程
+1. 粗横线代表有并行的线程
 2. 带泳道（活动按照归属对象进行划分）
 	![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/%E5%B8%A6%E6%B3%B3%E9%81%93%E7%9A%84%E6%B4%BB%E5%8A%A8%E5%9B%BE.png) 
 ### 状态图
