@@ -30,9 +30,3 @@ shutdown	关闭实例	或者在命令行外使用redis-cli -p 6380 shutdown
 5. 密码访问
 	- 设置密码	requirepass 
 	- 登录时使用auth进行验证
-
-
-
-
-
-

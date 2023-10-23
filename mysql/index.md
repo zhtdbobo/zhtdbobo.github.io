@@ -1,4 +1,4 @@
-# mysql安装
+# mysql
 
 
 [toc]
@@ -199,5 +199,3 @@
 	```
 		event_scheduler=ON
 	```
-
-	
