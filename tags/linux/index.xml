@@ -1,39 +1,47 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>linux - 标签 - 博博拾光</title>
-        <link>https://zhtdbobo.github.io/tags/linux/</link>
+        <link>https://zhtdbobo.github.io/categories/tags/linux/</link>
         <description>linux - 标签 - 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/tags/linux/" rel="self" type="application/rss+xml" /><item>
     <title>mongodb</title>
-    <link>https://zhtdbobo.github.io/mongodb/</link>
+    <link>https://zhtdbobo.github.io/categories/mongodb/</link>
     <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/mongodb/</guid>
+    <guid>https://zhtdbobo.github.io/categories/mongodb/</guid>
     <description><![CDATA[[toc] 安装 官网 下载 上传到服务器并解压，移动到 /usr/local 目录下 1 2 3 tar -zxvf mongodb-linux-x86_64-rhel70-5.0.9.tgz mv mongodb-linux-x86_64-rhel70-5.0.9 mongodb mv mongodb-linux-x86_64-rhel70-5.0.9 /usr/local/mongodb 进入 mongodb 目录，并创建文件夹 data，在 data 文件夹下再创建 db 文件夹（用于存]]></description>
 </item>
 <item>
     <title>redis</title>
-    <link>https://zhtdbobo.github.io/redis/</link>
+    <link>https://zhtdbobo.github.io/categories/redis/</link>
     <pubDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/redis/</guid>
+    <guid>https://zhtdbobo.github.io/categories/redis/</guid>
     <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
 </item>
 <item>
     <title>tomcat9</title>
-    <link>https://zhtdbobo.github.io/tomcat9/</link>
+    <link>https://zhtdbobo.github.io/categories/tomcat9/</link>
     <pubDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/tomcat9/</guid>
+    <guid>https://zhtdbobo.github.io/categories/tomcat9/</guid>
     <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
 </item>
 <item>
+    <title>screen</title>
+    <link>https://zhtdbobo.github.io/categories/screen/</link>
+    <pubDate>Fri, 09 Jun 2023 07:00:11 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/categories/screen/</guid>
+    <description><![CDATA[进入指定session，如dog 1 screen -r dog 退出当前session 1 2 先按 ctrl+a 再按 ctrl+d]]></description>
+</item>
+<item>
     <title>mysql</title>
-    <link>https://zhtdbobo.github.io/mysql/</link>
+    <link>https://zhtdbobo.github.io/categories/mysql/</link>
     <pubDate>Sun, 16 Apr 2023 02:21:05 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/mysql/</guid>
+    <guid>https://zhtdbobo.github.io/categories/mysql/</guid>
     <description><![CDATA[[toc] 安装mysql 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv mysql-5.7.40-el7-x86_64]]></description>
 </item>
 </channel>

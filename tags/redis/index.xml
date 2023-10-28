@@ -1,15 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>redis - 标签 - 博博拾光</title>
-        <link>https://zhtdbobo.github.io/tags/redis/</link>
+        <link>https://zhtdbobo.github.io/categories/tags/redis/</link>
         <description>redis - 标签 - 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/redis/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/tags/redis/" rel="self" type="application/rss+xml" /><item>
     <title>redis</title>
-    <link>https://zhtdbobo.github.io/redis/</link>
+    <link>https://zhtdbobo.github.io/categories/redis/</link>
     <pubDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/redis/</guid>
+    <guid>https://zhtdbobo.github.io/categories/redis/</guid>
     <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
 </item>
 </channel>

@@ -1,89 +1,89 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>博博拾光</title>
-        <link>https://zhtdbobo.github.io/</link>
+        <link>https://zhtdbobo.github.io/categories/</link>
         <description>博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
             <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</lastBuildDate>
-            <atom:link href="https://zhtdbobo.github.io/index.xml" rel="self" type="application/rss+xml" />
+            <atom:link href="https://zhtdbobo.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>git</title>
-    <link>https://zhtdbobo.github.io/git/</link>
+    <link>https://zhtdbobo.github.io/categories/git/</link>
     <pubDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/git/</guid>
+    <guid>https://zhtdbobo.github.io/categories/git/</guid>
     <description><![CDATA[[toc] 创建本地的git用户信息 项目级别/仓库级别 1 2 git config user.name lyb_pro git config user.email jaridli_pro@163.com 操作系统用户级别 1 2 git config --global user.name lyb git config --global user.email jaridli@163.com 生成ssh密钥配置到git 判断本机是]]></description>
 </item>
 <item>
     <title>mongodb</title>
-    <link>https://zhtdbobo.github.io/mongodb/</link>
+    <link>https://zhtdbobo.github.io/categories/mongodb/</link>
     <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/mongodb/</guid>
+    <guid>https://zhtdbobo.github.io/categories/mongodb/</guid>
     <description><![CDATA[[toc] 安装 官网 下载 上传到服务器并解压，移动到 /usr/local 目录下 1 2 3 tar -zxvf mongodb-linux-x86_64-rhel70-5.0.9.tgz mv mongodb-linux-x86_64-rhel70-5.0.9 mongodb mv mongodb-linux-x86_64-rhel70-5.0.9 /usr/local/mongodb 进入 mongodb 目录，并创建文件夹 data，在 data 文件夹下再创建 db 文件夹（用于存]]></description>
 </item>
 <item>
     <title>java</title>
-    <link>https://zhtdbobo.github.io/java/</link>
+    <link>https://zhtdbobo.github.io/categories/java/</link>
     <pubDate>Sun, 22 Oct 2023 01:34:49 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/java/</guid>
+    <guid>https://zhtdbobo.github.io/categories/java/</guid>
     <description><![CDATA[[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 1 2 3 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 加载配置文件 1 source /etc/profile 验证并看看自己的配置]]></description>
 </item>
 <item>
     <title>redis</title>
-    <link>https://zhtdbobo.github.io/redis/</link>
+    <link>https://zhtdbobo.github.io/categories/redis/</link>
     <pubDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/redis/</guid>
+    <guid>https://zhtdbobo.github.io/categories/redis/</guid>
     <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
 </item>
 <item>
     <title>tomcat9</title>
-    <link>https://zhtdbobo.github.io/tomcat9/</link>
+    <link>https://zhtdbobo.github.io/categories/tomcat9/</link>
     <pubDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/tomcat9/</guid>
+    <guid>https://zhtdbobo.github.io/categories/tomcat9/</guid>
     <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
 </item>
 <item>
     <title>大题</title>
-    <link>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</link>
+    <link>https://zhtdbobo.github.io/categories/%E5%A4%A7%E9%A2%98/</link>
     <pubDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</guid>
+    <guid>https://zhtdbobo.github.io/categories/%E5%A4%A7%E9%A2%98/</guid>
     <description><![CDATA[[TOC] 数据流图DFD 基本图形 图形含义 数据流、加工、数据存储（文件）、外部实体 案例 分层 结构化、自定向下 数据字典 符号含义 数据平衡原则 父图和子图（如顶]]></description>
 </item>
 <item>
     <title>选择题</title>
-    <link>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</link>
+    <link>https://zhtdbobo.github.io/categories/%E9%80%89%E6%8B%A9%E9%A2%98/</link>
     <pubDate>Sun, 15 Oct 2023 13:52:13 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
+    <guid>https://zhtdbobo.github.io/categories/%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
     <description><![CDATA[[toc] 题目分布 上午场：75题（75分），45分及格 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式 计算机组成]]></description>
 </item>
 <item>
     <title>screen</title>
-    <link>https://zhtdbobo.github.io/screen/</link>
+    <link>https://zhtdbobo.github.io/categories/screen/</link>
     <pubDate>Fri, 09 Jun 2023 07:00:11 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/screen/</guid>
+    <guid>https://zhtdbobo.github.io/categories/screen/</guid>
     <description><![CDATA[进入指定session，如dog 1 screen -r dog 退出当前session 1 2 先按 ctrl+a 再按 ctrl+d]]></description>
 </item>
 <item>
     <title>题目中涉及但没学习到</title>
-    <link>https://zhtdbobo.github.io/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</link>
+    <link>https://zhtdbobo.github.io/categories/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</link>
     <pubDate>Fri, 12 May 2023 14:03:55 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</guid>
+    <guid>https://zhtdbobo.github.io/categories/%E9%A2%98%E7%9B%AE%E4%B8%AD%E6%B6%89%E5%8F%8A%E4%BD%86%E6%B2%A1%E5%AD%A6%E4%B9%A0%E5%88%B0/</guid>
     <description><![CDATA[病毒分类 引导区病毒 宏病毒 木马病毒 蠕虫病毒 如 震网病毒 语音采样频率大于等于工作频率的二倍，才能在以后恢复实际波形 接口设计主要依据需求分析阶段的数]]></description>
 </item>
 <item>
     <title>mysql</title>
-    <link>https://zhtdbobo.github.io/mysql/</link>
+    <link>https://zhtdbobo.github.io/categories/mysql/</link>
     <pubDate>Sun, 16 Apr 2023 02:21:05 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/mysql/</guid>
+    <guid>https://zhtdbobo.github.io/categories/mysql/</guid>
     <description><![CDATA[[toc] 安装mysql 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv mysql-5.7.40-el7-x86_64]]></description>
 </item>
 </channel>
