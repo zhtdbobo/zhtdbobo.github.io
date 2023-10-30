@@ -21,30 +21,24 @@
 		conda config --set show_channel_urls yes
 		```
 		在C盘用户目录下会生成.condarc文件。
-	- 然后使用记事本打开，用下面的内容将其替换，或者在后面的云盘内下载进行替换即可
+	- 然后使用记事本打开，用下面的内容将其替换
 		```
-		channels:
-		defaults
 		show_channel_urls: true
-		channel_alias: https://mirror.tuna.tsinghua.edu.cn/anaconda
-		default_channels:
-		https://mirror.tuna.tsinghua.edu.cn/anaconda/pkgs/main
-		https://mirror.tuna.tsinghua.edu.cn/anaconda/pkgs/free
-		https://mirror.tuna.tsinghua.edu.cn/anaconda/pkgs/r
-		https://mirror.tuna.tsinghua.edu.cn/anaconda/pkgs/pro
-		https://mirror.tuna.tsinghua.edu.cn/anaconda/pkgs/msys2
-		custom_channels:
-		conda-forge: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
-		msys2: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
-		bioconda: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
-		menpo: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
-		pytorch: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
-		simpleitk: https://mirror.tuna.tsinghua.edu.cn/anaconda/cloud
+		channels:
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/conda-forge
+		  - https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/msys2/
+		  - defaults
+		
 		```
+		
 	- 最后保存，然后在CMD中输入
 		```shell
-		conda clean -i，此时Anaconda已经换源成功！
+		conda clean -i
 		```
+		此时Anaconda已经换源成功！
 2. 查看conda信息
 	```shell
 		conda info

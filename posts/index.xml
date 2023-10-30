@@ -4,7 +4,15 @@
         <link>https://zhtdbobo.github.io/posts/</link>
         <description>所有文章 | 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 30 Oct 2023 02:37:31 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>anaconda</title>
+    <link>https://zhtdbobo.github.io/anaconda/</link>
+    <pubDate>Mon, 30 Oct 2023 02:37:31 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/anaconda/</guid>
+    <description><![CDATA[[TOC] conda安装 配置环境变量 1 2 3 E:\Anaconda E:\Anaconda\Scripts E:\Anaconda\Library\bin 可以在c盘的.condarc添加环境默认的安装路径，修改目标路径的访问权限为完全控制 1 2 envs_dirs: - E://Anaconda//envs #新的]]></description>
+</item>
+<item>
     <title>git</title>
     <link>https://zhtdbobo.github.io/git/</link>
     <pubDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</pubDate>
@@ -59,14 +67,6 @@
     <author>JaridLi</author>
     <guid>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
     <description><![CDATA[[toc] 题目分布 上午场：75题（75分），45分及格 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式 计算机组成]]></description>
-</item>
-<item>
-    <title>anaconda</title>
-    <link>https://zhtdbobo.github.io/anaconda/</link>
-    <pubDate>Mon, 31 Jul 2023 00:20:54 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/anaconda/</guid>
-    <description><![CDATA[[TOC] conda安装 配置环境变量 1 2 3 E:\Anaconda E:\Anaconda\Scripts E:\Anaconda\Library\bin 可以在c盘的.condarc添加环境默认的安装路径，修改目标路径的访问权限为完全控制 1 2 envs_dirs: - E://Anaconda//envs #新的]]></description>
 </item>
 <item>
     <title>screen</title>
