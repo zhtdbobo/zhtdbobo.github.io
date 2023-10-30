@@ -16,7 +16,7 @@
 <meta name="twitter:title" content="anaconda"/>
 <meta name="twitter:description" content="[TOC] conda安装 配置环境变量 1 2 3 E:\Anaconda E:\Anaconda\Scripts E:\Anaconda\Library\bin 可以在c盘的.condarc添加环境默认的安装路径，修改目标路径的访问权限为完全控制 1 2 envs_dirs: - E://Anaconda//envs #新的"/>
 <meta name="application-name" content="博博~Blog">
-<meta name="apple-mobile-web-app-title" content="博博~Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/anaconda/" /><link rel="prev" href="https://zhtdbobo.github.io/git/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
+<meta name="apple-mobile-web-app-title" content="博博~Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/anaconda/" /><link rel="prev" href="https://zhtdbobo.github.io/git/" /><link rel="next" href="https://zhtdbobo.github.io/django/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
         "@context": "http://schema.org",
         "@type": "BlogPosting",
@@ -25,7 +25,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhtdbobo.github.io\/anaconda\/"
-        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "conda, python","wordcount":  600 ,
+        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "conda","wordcount":  652 ,
         "url": "https:\/\/zhtdbobo.github.io\/anaconda\/","datePublished": "2023-10-30T02:37:31+00:00","dateModified": "2023-10-30T02:37:31+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/zhtdbobo.github.io\/images\/avatar.png"},"author": {
@@ -160,8 +160,8 @@
             <div class="toc-content" id="toc-content-auto"></div>
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">anaconda</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
-</span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E5%B7%A5%E5%85%B7/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>工具</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 600 字&nbsp;
+</span>&nbsp;<span class="post-category">收录于 <a href="/categories/python/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>python</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-30">2023-10-30</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 652 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/anaconda/" class="leancloud_visitors" data-flag-title="anaconda">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -178,6 +178,7 @@
     <li><a href="#添加conda右键菜单">添加conda右键菜单</a></li>
     <li><a href="#jupyter-notebook">jupyter notebook</a></li>
     <li><a href="#生成开始菜单">生成开始菜单</a></li>
+    <li><a href="#qa">Q&amp;A</a></li>
   </ul>
 </nav></div>
             </div><div class="content" id="content"><p>[TOC]</p>
@@ -468,7 +469,24 @@
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">python .\Lib\_nsis.py mkmenus
 </span></span></code></pre></td></tr></table>
 </div>
-</div></div><div class="post-footer" id="post-footer">
+</div><h1 id="qa">Q&amp;A</h1>
+<ol>
+<li>pycharm终端无法激活conda环境
+<ul>
+<li>原因：pycharm 默认的终端是 Windows PowerShell</li>
+<li>解决：新建一个cmd的终端
+<img
+        class="lazyload"
+        src="/svg/loading.min.svg"
+        data-src="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png"
+        data-srcset="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png 1.5x, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png 2x"
+        data-sizes="auto"
+        alt="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png"
+        title="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png" /></li>
+</ul>
+</li>
+</ol>
+</div><div class="post-footer" id="post-footer">
     <div class="post-info">
         <div class="post-info-line">
             <div class="post-info-mod">
@@ -479,19 +497,20 @@
                             <a class="link-to-markdown" href="/anaconda/index.md" target="_blank">阅读原始文档</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda" data-hashtags="conda,python"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/anaconda/" data-hashtag="conda"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="分享到 Twitter" data-sharer="twitter" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda" data-hashtags="conda"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Facebook" data-sharer="facebook" data-url="https://zhtdbobo.github.io/anaconda/" data-hashtag="conda"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Hacker News" data-sharer="hackernews" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 Line" data-sharer="line" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda"><i data-svg-src="https://cdn.jsdelivr.net/npm/simple-icons@6.20.0/icons/line.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="分享到 微博" data-sharer="weibo" data-url="https://zhtdbobo.github.io/anaconda/" data-title="anaconda" data-ralateuid="xxxx"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
 
     <div class="post-info-more">
-        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/conda/">conda</a>,&nbsp;<a href="/tags/python/">python</a></section>
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/conda/">conda</a></section>
         <section>
             <span><a href="javascript:void(0);" onclick="window.history.back();">返回</a></span>&nbsp;|&nbsp;<span><a href="/">主页</a></span>
         </section>
     </div>
 
-    <div class="post-nav"><a href="/git/" class="prev" rel="prev" title="git"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>git</a></div>
+    <div class="post-nav"><a href="/git/" class="prev" rel="prev" title="git"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>git</a>
+            <a href="/django/" class="next" rel="next" title="django">django<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
 </div>
 <div id="comments"><div id="disqus_thread" class="comment"></div><noscript>
                 Please enable JavaScript to view the comments powered by <a href="https://disqus.com/?ref_noscript">Disqus</a>.

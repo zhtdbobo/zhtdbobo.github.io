@@ -119,3 +119,10 @@
 ```
 python .\Lib\_nsis.py mkmenus
 ```
+
+# Q&A
+
+1. pycharm终端无法激活conda环境
+   - 原因：pycharm 默认的终端是 Windows PowerShell
+   - 解决：新建一个cmd的终端
+   ![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/pycharm%E4%B8%8D%E6%BF%80%E6%B4%BBanaconda.png)
