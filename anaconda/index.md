@@ -59,9 +59,9 @@
 		conda create -n new_env_name --clone old_env_name
 		```
 2. 激活环境
-```
-	conda activate env-name
-```
+    ```
+    conda activate env-name
+    ```
 3. 并在新的环境中配置jupyter notebook
 	```
 	activate env-name

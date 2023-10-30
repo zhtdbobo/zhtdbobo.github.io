@@ -21,14 +21,14 @@
 	./shutdown.sh
 	```
 # 扩展配置
-### 同时运行多个tomcat
+## 同时运行多个tomcat
 - 修改端口号不一样即可（shutdown， http ，https）
 	```
 		shutdown:8005
 		http:8080
 		https:8443
 	```
-### 设置开机自启
+## 设置开机自启
 1. 切换目录
 	```
 	cd /etc/init.d
@@ -68,7 +68,7 @@
 5. 输入命令查看是否添加成功： chkconfig --list
 6. 启动 tomcat命令：service tomcat9 start
 7. 使用浏览器访问服务器的8080端口是否有tomcat主页出现
-### 配置支持https
+## 配置支持https
 1. 上传ssl的ks证书到服务器，如jaridli.top.jks
 2. 修改conf/server.xml，配置http连接和https连接
    redirectPort是让一个端口直接重定向到另外一个
@@ -97,7 +97,7 @@
     </security-constraint>
 
 
-### 使用tomcat作为上传文件服务器
+## 使用tomcat作为上传文件服务器
 1. tomcat服务器默认是不可写操作，只允许读，所以在conf/web.xml文件中的servlet标签内加入readonly：false,重启tomcat
 <init-param>
     <param-name>readonly</param-name>

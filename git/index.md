@@ -2,6 +2,7 @@
 
 
 [toc]
+# 基本使用
 ### 创建本地的git用户信息
 1. 项目级别/仓库级别
 ```
@@ -85,7 +86,8 @@
 	- 找到.git下面的config文件
 	- 添加url
 # Q&A
-### ssh: connect to host github.com Port : 22 Connection refused
+### Connection refused
+> ssh: connect to host github.com Port : 22 Connection refused
 1. 添加配置文件，并编辑
 	```shell
 	vim config

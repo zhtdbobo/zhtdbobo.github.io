@@ -18,7 +18,7 @@
     <pubDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</pubDate>
     <author>JaridLi</author>
     <guid>https://zhtdbobo.github.io/git/</guid>
-    <description><![CDATA[[toc] 创建本地的git用户信息 项目级别/仓库级别 1 2 git config user.name lyb_pro git config user.email jaridli_pro@163.com 操作系统用户级别 1 2 git config --global user.name lyb git config --global user.email jaridli@163.com 生成ssh密钥配置到git 判断本机是]]></description>
+    <description><![CDATA[[toc] 基本使用 创建本地的git用户信息 项目级别/仓库级别 1 2 git config user.name lyb_pro git config user.email jaridli_pro@163.com 操作系统用户级别 1 2 git config --global user.name lyb git config --global user.email jaridli@163.com 生成ssh密钥配置到git 判]]></description>
 </item>
 </channel>
 </rss>

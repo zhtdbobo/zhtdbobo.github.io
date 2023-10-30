@@ -172,7 +172,8 @@
                 </div>
                 <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
   <ul>
-    <li>
+    <li><a href="#基础安装">基础安装</a></li>
+    <li><a href="#扩展配置">扩展配置</a>
       <ul>
         <li><a href="#同时运行多个tomcat">同时运行多个tomcat</a></li>
         <li><a href="#设置开机自启">设置开机自启</a></li>
@@ -226,7 +227,7 @@
 </div></li>
 </ol>
 <h1 id="扩展配置">扩展配置</h1>
-<h3 id="同时运行多个tomcat">同时运行多个tomcat</h3>
+<h2 id="同时运行多个tomcat">同时运行多个tomcat</h2>
 <ul>
 <li>修改端口号不一样即可（shutdown， http ，https）
 <div class="highlight"><div class="chroma">
@@ -243,7 +244,7 @@
 </div>
 </div></li>
 </ul>
-<h3 id="设置开机自启">设置开机自启</h3>
+<h2 id="设置开机自启">设置开机自启</h2>
 <ol>
 <li>切换目录
 <div class="highlight"><div class="chroma">
@@ -324,7 +325,7 @@
 <li>启动 tomcat命令：service tomcat9 start</li>
 <li>使用浏览器访问服务器的8080端口是否有tomcat主页出现</li>
 </ol>
-<h3 id="配置支持https">配置支持https</h3>
+<h2 id="配置支持https">配置支持https</h2>
 <ol>
 <li>上传ssl的ks证书到服务器，如jaridli.top.jks</li>
 <li>修改conf/server.xml，配置http连接和https连接
@@ -353,7 +354,7 @@ keystorePass="****" clientAuth="false"/></li>
 </user-data-constraint>
 </security-constraint></li>
 </ol>
-<h3 id="使用tomcat作为上传文件服务器">使用tomcat作为上传文件服务器</h3>
+<h2 id="使用tomcat作为上传文件服务器">使用tomcat作为上传文件服务器</h2>
 <ol>
 <li>tomcat服务器默认是不可写操作，只允许读，所以在conf/web.xml文件中的servlet标签内加入readonly：false,重启tomcat
 <init-param>
