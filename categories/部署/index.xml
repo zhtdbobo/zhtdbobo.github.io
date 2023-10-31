@@ -4,15 +4,7 @@
         <link>https://zhtdbobo.github.io/categories/%E9%83%A8%E7%BD%B2/</link>
         <description>部署 - 分类 - 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 30 Oct 2023 09:07:22 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E9%83%A8%E7%BD%B2/" rel="self" type="application/rss+xml" /><item>
-    <title>shell</title>
-    <link>https://zhtdbobo.github.io/shell/</link>
-    <pubDate>Mon, 30 Oct 2023 09:07:22 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/shell/</guid>
-    <description><![CDATA[文件重命名 使用date cp：复制一个文件或文件夹 -r ：递归持续复制，用于目录的复制行为； -f ：为强制 (force) 的意思，若有重复或其它疑问时，不会询问使用]]></description>
-</item>
-<item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E9%83%A8%E7%BD%B2/" rel="self" type="application/rss+xml" /><item>
     <title>mongodb</title>
     <link>https://zhtdbobo.github.io/mongodb/</link>
     <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
@@ -37,20 +29,12 @@
     <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
 </item>
 <item>
-    <title>tomcat9</title>
-    <link>https://zhtdbobo.github.io/tomcat9/</link>
+    <title>tomcat</title>
+    <link>https://zhtdbobo.github.io/tomcat/</link>
     <pubDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/tomcat9/</guid>
+    <guid>https://zhtdbobo.github.io/tomcat/</guid>
     <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
-</item>
-<item>
-    <title>screen</title>
-    <link>https://zhtdbobo.github.io/screen/</link>
-    <pubDate>Fri, 09 Jun 2023 07:00:11 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/screen/</guid>
-    <description><![CDATA[进入指定session，如dog 1 screen -r dog 退出当前session 1 2 先按 ctrl+a 再按 ctrl+d]]></description>
 </item>
 <item>
     <title>mysql</title>

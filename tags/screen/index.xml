@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>screen - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/screen/</link>
+        <description>screen - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 09 Jun 2023 07:00:11 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/screen/" rel="self" type="application/rss+xml" /><item>
+    <title>screen</title>
+    <link>https://zhtdbobo.github.io/screen/</link>
+    <pubDate>Fri, 09 Jun 2023 07:00:11 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/screen/</guid>
+    <description><![CDATA[进入指定session，如dog 1 screen -r dog 退出当前session 1 2 先按 ctrl+a 再按 ctrl+d]]></description>
+</item>
+</channel>
+</rss>

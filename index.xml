@@ -63,11 +63,11 @@
     <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
 </item>
 <item>
-    <title>tomcat9</title>
-    <link>https://zhtdbobo.github.io/tomcat9/</link>
+    <title>tomcat</title>
+    <link>https://zhtdbobo.github.io/tomcat/</link>
     <pubDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/tomcat9/</guid>
+    <guid>https://zhtdbobo.github.io/tomcat/</guid>
     <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
 </item>
 <item>
