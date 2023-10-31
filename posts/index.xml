@@ -4,7 +4,23 @@
         <link>https://zhtdbobo.github.io/posts/</link>
         <description>所有文章 | 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 30 Oct 2023 09:07:22 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 03:52:04 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>LoveIt</title>
+    <link>https://zhtdbobo.github.io/loveit/</link>
+    <pubDate>Tue, 31 Oct 2023 03:52:04 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/loveit/</guid>
+    <description><![CDATA[美化 添加运行时间 拷贝 \themes\LoveIt\layouts\partials\footer.html 到 \layouts\partials\footer.html， 在 &lt;div class=&quot;footer-container&quot;&gt; 的下方添加: 1 2 3 &lt;div class=&#34;footer-line&#34;&gt; &lt;span id=&#34;run-time&#34;&gt;&lt;/span&gt; &lt;/div&gt; 修改custom.js]]></description>
+</item>
+<item>
+    <title>hugo</title>
+    <link>https://zhtdbobo.github.io/hugo/</link>
+    <pubDate>Tue, 31 Oct 2023 03:45:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/hugo/</guid>
+    <description><![CDATA[[TOC] hugo 安装 win+r输入：powershell，使用 1 2 scoop install hugo-extended hugo version //查看是否安装成功 进入自己的文件夹，创建自己的网站 1 2 hugo new site jaridli cd jaridli 初始化当]]></description>
+</item>
+<item>
     <title>shell</title>
     <link>https://zhtdbobo.github.io/shell/</link>
     <pubDate>Mon, 30 Oct 2023 09:07:22 &#43;0000</pubDate>
@@ -67,22 +83,6 @@
     <author>JaridLi</author>
     <guid>https://zhtdbobo.github.io/tomcat/</guid>
     <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
-</item>
-<item>
-    <title>大题</title>
-    <link>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</link>
-    <pubDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</guid>
-    <description><![CDATA[[TOC] 数据流图DFD 基本图形 图形含义 数据流、加工、数据存储（文件）、外部实体 案例 分层 结构化、自定向下 数据字典 符号含义 数据平衡原则 父图和子图（如顶]]></description>
-</item>
-<item>
-    <title>选择题</title>
-    <link>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</link>
-    <pubDate>Sun, 15 Oct 2023 13:52:13 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
-    <description><![CDATA[[toc] 题目分布 上午场：75题（75分），45分及格 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式 计算机组成]]></description>
 </item>
 </channel>
 </rss>

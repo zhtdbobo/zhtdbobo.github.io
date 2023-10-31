@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>hugo - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/hugo/</link>
+        <description>hugo - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 03:45:13 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/hugo/" rel="self" type="application/rss+xml" /><item>
+    <title>hugo</title>
+    <link>https://zhtdbobo.github.io/hugo/</link>
+    <pubDate>Tue, 31 Oct 2023 03:45:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/hugo/</guid>
+    <description><![CDATA[[TOC] hugo 安装 win+r输入：powershell，使用 1 2 scoop install hugo-extended hugo version //查看是否安装成功 进入自己的文件夹，创建自己的网站 1 2 hugo new site jaridli cd jaridli 初始化当]]></description>
+</item>
+</channel>
+</rss>
