@@ -4,7 +4,15 @@
         <link>https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/</link>
         <description>软考 - 分类 - 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 05:57:22 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>软件评测师下午题</title>
+    <link>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</link>
+    <pubDate>Tue, 31 Oct 2023 05:57:22 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</guid>
+    <description><![CDATA[[toc] 黑盒测试 白盒测试 逻辑覆盖 性能测试 该软件公司在负载压力测试中没有进行功能校验，忽略了负载压力情况下的功能不稳定问题。没有正确的功能保证，负载]]></description>
+</item>
+<item>
     <title>大题</title>
     <link>https://zhtdbobo.github.io/%E5%A4%A7%E9%A2%98/</link>
     <pubDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</pubDate>

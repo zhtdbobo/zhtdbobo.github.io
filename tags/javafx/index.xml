@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>javafx - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/javafx/</link>
+        <description>javafx - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 05 May 2023 10:21:11 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/javafx/" rel="self" type="application/rss+xml" /><item>
+    <title>javafx</title>
+    <link>https://zhtdbobo.github.io/javafx/</link>
+    <pubDate>Fri, 05 May 2023 10:21:11 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/javafx/</guid>
+    <description><![CDATA[[TOC] JavaFXSceneBuilder 使用 下载 打包 在maven中引入依赖 1 2 3 4 5 6 7 8 9 10 11 12 &lt;dependencies&gt; &lt;dependency&gt; &lt;groupId&gt;org.openjfx&lt;/groupId&gt; &lt;artifactId&gt;javafx-controls&lt;/artifactId&gt; &lt;version&gt;15.0.1&lt;/version&gt; &lt;/dependency&gt; &lt;dependency&gt; &lt;groupId&gt;org.openjfx&lt;/groupId&gt; &lt;artifactId&gt;javafx-fxml&lt;/artifactId&gt; &lt;version&gt;15.0.1&lt;/version&gt; &lt;/dependency&gt; &lt;/dependencies&gt; 打包成exe， 创建一个类文件来调用xxApplicat]]></description>
+</item>
+</channel>
+</rss>
