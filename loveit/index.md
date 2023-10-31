@@ -1,7 +1,10 @@
 # LoveIt
 
 
+[TOC]
+
 # 美化
+
 ### 添加运行时间
 1. 拷贝  \themes\LoveIt\layouts\partials\footer.html
 	到	\layouts\partials\footer.html，
