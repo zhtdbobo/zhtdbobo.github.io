@@ -47,55 +47,63 @@
 		> 修改INSTALLED_APPS加上自己新建的app
 		> 指定websocket使用asgi网关
 		```
-			INSTALLED_APPS = [
-				'django.contrib.admin',
-				'django.contrib.auth',
-				'django.contrib.contenttypes',
-				'django.contrib.sessions',
-				'django.contrib.messages',
-				'django.contrib.staticfiles',
-				'channels',
-				'app',
-			]
-			ASGI_APPLICATION = "ws.asgi.application"
+		INSTALLED_APPS = [
+			'django.contrib.admin',
+			'django.contrib.auth',
+			'django.contrib.contenttypes',
+			'django.contrib.sessions',
+			'django.contrib.messages',
+			'django.contrib.staticfiles',
+			'channels',
+			'app',
+		]
+		ASGI_APPLICATION = "ws.asgi.application"
+		```
+		> 修改允许其他电脑访问
+		```
+		ALLOWED_HOSTS = ["*"]
 		```
 	- 新建routing.py
 		> 和项目的setting.py同级
 		```python
-			from django.urls import re_path
+		from django.urls import re_path
 		
-			from app import consumers
+		from app import consumers
 		
-			websocket_urlpatterns = [
-				re_path("^test", consumers.ChatConsumer.as_asgi()),
-			]
+		websocket_urlpatterns = [
+			re_path("^test", consumers.ChatConsumer.as_asgi()),
+		]
 		```
 	- 修改asgi.py
 		> asgi网关（异步服务）配置访问访问http和websocket
 		```python
-			import os
-			from . import routing
-			from channels.routing import ProtocolTypeRouter, URLRouter
-			from django.core.asgi import get_asgi_application
+		import os
+		from . import routing
+		from channels.routing import ProtocolTypeRouter, URLRouter
+		from django.core.asgi import get_asgi_application
 		
-			os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ws.settings')
+		os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'ws.settings')
 		
-			application = ProtocolTypeRouter({
-				"http": get_asgi_application(),
-				"websocket": URLRouter(routing.websocket_urlpatterns),
-			})
-		
+		application = ProtocolTypeRouter({
+			"http": get_asgi_application(),
+			"websocket": URLRouter(routing.websocket_urlpatterns),
+		})
 		```
 # 执行项目
 ### 运行
 - 迁移
 	```
-		python manage.py migrate
+	python manage.py migrate
 	```
 - 执行
-	```
+	- 本地访问
+		```
 		python manage.py runserver 端口号
-	```
+		```
+	- 其他电脑访问
+		```
+		python manage.py runserver 0.0.0.0:端口号
+		```
 - 截图
 ![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/django%E7%9A%84websocket.png)
 ### 测试
