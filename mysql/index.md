@@ -199,3 +199,10 @@
 	```
 		event_scheduler=ON
 	```
+
+# Q&A
+1. max_allowed_packet太小
+- 进入mysql控制台
+	```sql
+	set global max_allowed_packet = 1024*1024*16;
+	```

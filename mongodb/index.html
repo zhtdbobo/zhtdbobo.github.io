@@ -25,7 +25,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhtdbobo.github.io\/mongodb\/"
-        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "linux, sql, mongodb","wordcount":  798 ,
+        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "linux, sql, mongodb","wordcount":  1187 ,
         "url": "https:\/\/zhtdbobo.github.io\/mongodb\/","datePublished": "2023-10-23T06:43:37+00:00","dateModified": "2023-10-23T06:43:37+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/zhtdbobo.github.io\/images\/avatar.png"},"author": {
@@ -136,8 +136,8 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">mongodb</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
 </span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%83%A8%E7%BD%B2/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>部署</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-23">2023-10-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 798 字&nbsp;
-                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/mongodb/" class="leancloud_visitors" data-flag-title="mongodb">
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-23">2023-10-23</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 1187 字&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 3 分钟&nbsp;<span id="/mongodb/" class="leancloud_visitors" data-flag-title="mongodb">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
         </div><div class="details toc" id="toc-static"  data-kept="">
@@ -329,7 +329,7 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-sql" data-lang="sql"><span class="line"><span class="cl"><span class="n">use</span><span class="w"> </span><span class="k">admin</span><span class="w">
-</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">db</span><span class="p">.</span><span class="k">createUser</span><span class="p">(</span><span class="err">{</span><span class="k">user</span><span class="p">:</span><span class="s2">&#34;admin&#34;</span><span class="p">,</span><span class="n">pwd</span><span class="p">:</span><span class="s2">&#34;123456&#34;</span><span class="p">,</span><span class="n">roles</span><span class="p">:[</span><span class="err">{</span><span class="k">role</span><span class="p">:</span><span class="s2">&#34;userAdminAnyDatabase&#34;</span><span class="p">,</span><span class="n">db</span><span class="p">:</span><span class="s2">&#34;admin&#34;</span><span class="err">}</span><span class="p">]</span><span class="err">}</span><span class="p">)</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="n">db</span><span class="p">.</span><span class="k">createUser</span><span class="p">(</span><span class="err">{</span><span class="k">user</span><span class="p">:</span><span class="s2">&#34;管理员&#34;</span><span class="p">,</span><span class="n">pwd</span><span class="p">:</span><span class="s2">&#34;密码&#34;</span><span class="p">,</span><span class="n">roles</span><span class="p">:[</span><span class="err">{</span><span class="k">role</span><span class="p">:</span><span class="s2">&#34;userAdminAnyDatabase&#34;</span><span class="p">,</span><span class="n">db</span><span class="p">:</span><span class="s2">&#34;admin&#34;</span><span class="err">}</span><span class="p">]</span><span class="err">}</span><span class="p">)</span><span class="w">
 </span></span></span></code></pre></td></tr></table>
 </div>
 </div><blockquote>
@@ -340,7 +340,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">db.auth(&#34;admin&#34;,&#34;123456&#34;)
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">db.auth(&#34;管理员&#34;,&#34;密码&#34;)
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>创建具体数据库的用户，赋予readWrite权限和dbAdmin权限</p>
@@ -351,7 +351,20 @@
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">use test
-</span></span><span class="line"><span class="cl">db.createUser({user:&#39;root&#39;,pwd:&#39;Test2022@&#39;,roles:[{role:&#39;readWrite&#39;,db:&#39;test&#39;},{role:&#39;dbAdmin&#39;,db:&#39;test&#39;}]})
+</span></span><span class="line"><span class="cl">db.createUser({user:&#39;用户名&#39;,pwd:&#39;密码&#39;,roles:[{role:&#39;readWrite&#39;,db:&#39;数据库名&#39;},{role:&#39;dbAdmin&#39;,db:&#39;数据库名&#39;}]})
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>退出当前用户，使用新用户登录</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">exit
+</span></span><span class="line"><span class="cl">db.auth(&#34;用户名&#34;,&#34;密码&#34;)
+</span></span><span class="line"><span class="cl">use 数据库名
 </span></span></code></pre></td></tr></table>
 </div>
 </div><p>创建集合</p>
@@ -360,7 +373,7 @@
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">db.createCollection(&#34;file&#34;)
+<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">db.createCollection(&#34;集合名&#34;)
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
@@ -369,11 +382,11 @@
 <img
         class="lazyload"
         src="/svg/loading.min.svg"
-        data-src="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png"
-        data-srcset="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png 1.5x, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png 2x"
+        data-src="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png"
+        data-srcset="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png 1.5x, https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png 2x"
         data-sizes="auto"
-        alt="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png"
-        title="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png" /></p>
+        alt="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png"
+        title="https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png" />)</p>
 </li>
 </ol>
 <h1 id="docker安装mongodb">docker安装mongodb</h1>

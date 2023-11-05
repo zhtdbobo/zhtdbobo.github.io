@@ -78,25 +78,35 @@
 	```
 7. 输入mongo进入数据库
 	创建管理员帐号
+	
 	```sql
 	use admin
-	db.createUser({user:"admin",pwd:"123456",roles:[{role:"userAdminAnyDatabase",db:"admin"}]})
+	db.createUser({user:"管理员",pwd:"密码",roles:[{role:"userAdminAnyDatabase",db:"admin"}]})
 	```
 	> 认证：如果不进行 db.auth("用户名","密码") 进行用户验证的话，是执行不了任务命令的，只有通过认证才可以。注意，每一个用户都需要在创建这个用户的认证库下进行认证。
 	```
-	db.auth("admin","123456")
+	db.auth("管理员","密码")
 	```
 	创建具体数据库的用户，赋予readWrite权限和dbAdmin权限
 	```
 	use test
-	db.createUser({user:'root',pwd:'Test2022@',roles:[{role:'readWrite',db:'test'},{role:'dbAdmin',db:'test'}]})
+	db.createUser({user:'用户名',pwd:'密码',roles:[{role:'readWrite',db:'数据库名'},{role:'dbAdmin',db:'数据库名'}]})
 	```
+	退出当前用户，使用新用户登录
+	
+	```
+	exit
+	db.auth("用户名","密码")
+	use 数据库名
+	```
+	
 	创建集合
+	
 	```
-	db.createCollection("file")
+	db.createCollection("集合名")
 	```
 8. 使用navicat连接远程mongodb，默认端口27017，输入验证的数据库、用户名、密码
-![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/navicat%E7%99%BB%E5%BD%95mongodb.png)
+![](https://joplin-1-1304734442.cos.ap-nanjing.myqcloud.com/mongodb.png))
 # docker安装mongodb
 1. 拉取mongodb镜像，并查看
 	```shell
