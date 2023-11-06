@@ -4,9 +4,17 @@
         <link>https://zhtdbobo.github.io/</link>
         <description>博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 01 Nov 2023 02:22:58 &#43;0000</lastBuildDate>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</lastBuildDate>
             <atom:link href="https://zhtdbobo.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>触发器和存储过程</title>
+    <link>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</link>
+    <pubDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</guid>
+    <description><![CDATA[[toc] 存储过程procedure 创建存储过程 1 2 3 4 5 6 create procedure mypro(in a int,in b int,out sum int) begin set sum = a+b; end; call mypro(1,2,@s);-- 调用存储过程 select @s;-- 显示过程输出结果 call用来调用过程，]]></description>
+</item>
+<item>
     <title>django</title>
     <link>https://zhtdbobo.github.io/django/</link>
     <pubDate>Wed, 01 Nov 2023 02:22:58 &#43;0000</pubDate>
@@ -77,14 +85,6 @@
     <author>JaridLi</author>
     <guid>https://zhtdbobo.github.io/mongodb/</guid>
     <description><![CDATA[[toc] 安装 官网 下载 上传到服务器并解压，移动到 /usr/local 目录下 1 2 3 tar -zxvf mongodb-linux-x86_64-rhel70-5.0.9.tgz mv mongodb-linux-x86_64-rhel70-5.0.9 mongodb mv mongodb-linux-x86_64-rhel70-5.0.9 /usr/local/mongodb 进入 mongodb 目录，并创建文件夹 data，在 data 文件夹下再创建 db 文件夹（用于存]]></description>
-</item>
-<item>
-    <title>java</title>
-    <link>https://zhtdbobo.github.io/java/</link>
-    <pubDate>Sun, 22 Oct 2023 01:34:49 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/java/</guid>
-    <description><![CDATA[[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 1 2 3 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 加载配置文件 1 source /etc/profile 验证并看看自己的配置]]></description>
 </item>
 </channel>
 </rss>
