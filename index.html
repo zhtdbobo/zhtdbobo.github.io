@@ -131,6 +131,11 @@
         alt="/morentouxiang.png"
         title="/morentouxiang.png" /></a></div><div class="home-subtitle"><div id="id-1" class="typeit"></div></div></div>
 <article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
+        <a href="/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/">数学技巧</a>
+    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
+</span>&nbsp;<span class="post-publish">发布于 <time datetime="2023-11-08">2023-11-08</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E7%AE%97%E6%B3%95/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>算法</a></span></div><div class="content">[toc] 取余 加法 (a + b)%m = (a%m+b%m)%m 减法 (a - b)%m = (a%m-b%m+m)%m 乘法 (a x b)%m = (a%m x b%m)%m</div><div class="post-footer">
+        <a href="/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/">阅读全文</a></div>
+</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
         <a href="/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/">触发器和存储过程</a>
     </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
 </span>&nbsp;<span class="post-publish">发布于 <time datetime="2023-11-06">2023-11-06</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/sql/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>sql</a></span></div><div class="content">[toc] 存储过程procedure 创建存储过程 1 2 3 4 5 6 create procedure mypro(in a int,in b int,out sum int) begin set sum = a+b; end; call mypro(1,2,@s);-- 调用存储过程 select @s;-- 显示过程输出结果 call用来调用过程，</div><div class="post-footer">
@@ -195,12 +200,6 @@
 </span>&nbsp;<span class="post-publish">发布于 <time datetime="2023-10-22">2023-10-22</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%83%A8%E7%BD%B2/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>部署</a></span></div><div class="content">[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 1 2 3 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 加载配置文件 1 source /etc/profile 验证并看看自己的配置</div><div class="post-footer">
         <a href="/java/">阅读全文</a><div class="post-tags">
                 <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/java/">java</a>,&nbsp;<a href="/tags/jdk/">jdk</a>,&nbsp;<a href="/tags/springboot/">springboot</a></div></div>
-</article><article class="single summary" itemscope itemtype="http://schema.org/Article"><h1 class="single-title" itemprop="name headline">
-        <a href="/redis/">redis</a>
-    </h1><div class="post-meta"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
-</span>&nbsp;<span class="post-publish">发布于 <time datetime="2023-10-19">2023-10-19</time></span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%83%A8%E7%BD%B2/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>部署</a></span></div><div class="content">[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp</div><div class="post-footer">
-        <a href="/redis/">阅读全文</a><div class="post-tags">
-                <i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/linux/">linux</a>,&nbsp;<a href="/tags/sql/">sql</a>,&nbsp;<a href="/tags/redis/">redis</a></div></div>
 </article><ul class="pagination"><li class="page-item active">
                     <span class="page-link">
                         <a href="/">1</a>

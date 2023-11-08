@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>算法 - 分类 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/categories/%E7%AE%97%E6%B3%95/</link>
+        <description>算法 - 分类 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Nov 2023 09:01:09 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E7%AE%97%E6%B3%95/" rel="self" type="application/rss+xml" /><item>
+    <title>数学技巧</title>
+    <link>https://zhtdbobo.github.io/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/</link>
+    <pubDate>Wed, 08 Nov 2023 09:01:09 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/</guid>
+    <description><![CDATA[[toc] 取余 加法 (a + b)%m = (a%m+b%m)%m 减法 (a - b)%m = (a%m-b%m+m)%m 乘法 (a x b)%m = (a%m x b%m)%m]]></description>
+</item>
+</channel>
+</rss>

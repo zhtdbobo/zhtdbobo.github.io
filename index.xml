@@ -4,9 +4,17 @@
         <link>https://zhtdbobo.github.io/</link>
         <description>博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</lastBuildDate>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Wed, 08 Nov 2023 09:01:09 &#43;0000</lastBuildDate>
             <atom:link href="https://zhtdbobo.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
+    <title>数学技巧</title>
+    <link>https://zhtdbobo.github.io/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/</link>
+    <pubDate>Wed, 08 Nov 2023 09:01:09 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E6%95%B0%E5%AD%A6%E6%8A%80%E5%B7%A7/</guid>
+    <description><![CDATA[[toc] 取余 加法 (a + b)%m = (a%m+b%m)%m 减法 (a - b)%m = (a%m-b%m+m)%m 乘法 (a x b)%m = (a%m x b%m)%m]]></description>
+</item>
+<item>
     <title>触发器和存储过程</title>
     <link>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</link>
     <pubDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</pubDate>
@@ -77,14 +85,6 @@
     <author>JaridLi</author>
     <guid>https://zhtdbobo.github.io/git/</guid>
     <description><![CDATA[[toc] 基本使用 创建本地的git用户信息 项目级别/仓库级别 1 2 git config user.name lyb_pro git config user.email jaridli_pro@163.com 操作系统用户级别 1 2 git config --global user.name lyb git config --global user.email jaridli@163.com 生成ssh密钥配置到git 判]]></description>
-</item>
-<item>
-    <title>mongodb</title>
-    <link>https://zhtdbobo.github.io/mongodb/</link>
-    <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
-    <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/mongodb/</guid>
-    <description><![CDATA[[toc] 安装 官网 下载 上传到服务器并解压，移动到 /usr/local 目录下 1 2 3 tar -zxvf mongodb-linux-x86_64-rhel70-5.0.9.tgz mv mongodb-linux-x86_64-rhel70-5.0.9 mongodb mv mongodb-linux-x86_64-rhel70-5.0.9 /usr/local/mongodb 进入 mongodb 目录，并创建文件夹 data，在 data 文件夹下再创建 db 文件夹（用于存]]></description>
 </item>
 </channel>
 </rss>
