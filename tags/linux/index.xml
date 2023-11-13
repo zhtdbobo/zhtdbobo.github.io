@@ -4,7 +4,15 @@
         <link>https://zhtdbobo.github.io/tags/linux/</link>
         <description>linux - 标签 - 博博拾光</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
-            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/linux/" rel="self" type="application/rss+xml" /><item>
+    <title>ngnix</title>
+    <link>https://zhtdbobo.github.io/ngnix/</link>
+    <pubDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/ngnix/</guid>
+    <description><![CDATA[[toc] 部署 下载 使用wget下载 下载到本地，上传到linux，解压缩 1 2 cd /home/用户 tar -zxvf nginx-1.24.0.tar.gz 安装 进入nginx目录 1 cd nginx-1.24.0 配置，编译，安装 1 2 3]]></description>
+</item>
+<item>
     <title>mongodb</title>
     <link>https://zhtdbobo.github.io/mongodb/</link>
     <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
