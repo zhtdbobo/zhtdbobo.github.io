@@ -7,12 +7,12 @@
             <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</lastBuildDate>
             <atom:link href="https://zhtdbobo.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>ngnix</title>
-    <link>https://zhtdbobo.github.io/ngnix/</link>
+    <title>nginx</title>
+    <link>https://zhtdbobo.github.io/nginx/</link>
     <pubDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</pubDate>
     <author>JaridLi</author>
-    <guid>https://zhtdbobo.github.io/ngnix/</guid>
-    <description><![CDATA[[toc] 部署 下载 使用wget下载 下载到本地，上传到linux，解压缩 1 2 cd /home/用户 tar -zxvf nginx-1.24.0.tar.gz 安装 进入nginx目录 1 cd nginx-1.24.0 配置，编译，安装 1 2 3]]></description>
+    <guid>https://zhtdbobo.github.io/nginx/</guid>
+    <description><![CDATA[[toc] 部署 下载 使用wget下载 下载到本地，上传到linux，解压缩 1 2 cd /home/用户 tar -zxvf nginx-1.24.0.tar.gz 安装依赖 1 yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel 安装 进入nginx目]]></description>
 </item>
 <item>
     <title>redis命令</title>

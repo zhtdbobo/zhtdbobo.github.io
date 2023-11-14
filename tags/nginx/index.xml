@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>nginx - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/nginx/</link>
+        <description>nginx - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/nginx/" rel="self" type="application/rss+xml" /><item>
+    <title>nginx</title>
+    <link>https://zhtdbobo.github.io/nginx/</link>
+    <pubDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/nginx/</guid>
+    <description><![CDATA[[toc] 部署 下载 使用wget下载 下载到本地，上传到linux，解压缩 1 2 cd /home/用户 tar -zxvf nginx-1.24.0.tar.gz 安装依赖 1 yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel 安装 进入nginx目]]></description>
+</item>
+</channel>
+</rss>
