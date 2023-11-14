@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <title>java - 博博拾光</title><meta name="Description" content=""><meta property="og:title" content="java" />
-<meta property="og:description" content="[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 1 2 3 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 加载配置文件 1 source /etc/profile 验证并看看自己的配置" />
+<meta property="og:description" content="[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 方案一 1 2 3 4 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 方案二 1 2 3 4 export JAVA_HOME=/usr/local/java/jdk8 export JRE_HOME=/usr/local/java/jdk8/jre export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASS_PATH export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin:$JAVA_HOME" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://zhtdbobo.github.io/java/" /><meta property="og:image" content="https://zhtdbobo.github.io/morentouxiang.png"/><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2023-10-22T01:34:49+00:00" />
@@ -14,7 +14,7 @@
 <meta name="twitter:image" content="https://zhtdbobo.github.io/morentouxiang.png"/>
 
 <meta name="twitter:title" content="java"/>
-<meta name="twitter:description" content="[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 1 2 3 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 加载配置文件 1 source /etc/profile 验证并看看自己的配置"/>
+<meta name="twitter:description" content="[toc] jdk安装 下载jdk传到服务器并解压 1 2 mkdir /usr/local/java tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java 修改配置文件 vim /etc/profile 添加如下： 方案一 1 2 3 4 JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar PATH=$JAVA_HOME/bin:$PATH export PATH JAVA_HOME CLASSPATHTH 方案二 1 2 3 4 export JAVA_HOME=/usr/local/java/jdk8 export JRE_HOME=/usr/local/java/jdk8/jre export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASS_PATH export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin:$JAVA_HOME"/>
 <meta name="application-name" content="博博~Blog">
 <meta name="apple-mobile-web-app-title" content="博博~Blog"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="icon" href="/morentouxiang.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="https://zhtdbobo.github.io/java/" /><link rel="prev" href="https://zhtdbobo.github.io/redis/" /><link rel="next" href="https://zhtdbobo.github.io/mongodb/" /><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css"><link rel="stylesheet" href="/css/style.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@4.1.1/animate.min.css"><script type="application/ld+json">
     {
@@ -25,7 +25,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https:\/\/zhtdbobo.github.io\/java\/"
-        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, jdk, springboot","wordcount":  613 ,
+        },"image": ["https:\/\/zhtdbobo.github.io\/images\/Apple-Devices-Preview.png"],"genre": "posts","keywords": "java, jdk, springboot","wordcount":  632 ,
         "url": "https:\/\/zhtdbobo.github.io\/java\/","datePublished": "2023-10-22T01:34:49+00:00","dateModified": "2023-10-22T01:34:49+00:00","license": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.","publisher": {
             "@type": "Organization",
             "name": "xxxx","logo": "https:\/\/zhtdbobo.github.io\/images\/avatar.png"},"author": {
@@ -136,7 +136,7 @@
         </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">java</h1><div class="post-meta">
             <div class="post-meta-line"><span class="post-author"><a href="https://github.com/zhtdbobo" title="Author" target="_blank" rel="noopener noreffer author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>JaridLi</a>
 </span>&nbsp;<span class="post-category">收录于 <a href="/categories/%E9%83%A8%E7%BD%B2/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>部署</a></span></div>
-            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 613 字&nbsp;
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2023-10-22">2023-10-22</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;约 632 字&nbsp;
                 <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;预计阅读 2 分钟&nbsp;<span id="/java/" class="leancloud_visitors" data-flag-title="java">
                         <i class="far fa-eye fa-fw" aria-hidden="true"></i>&nbsp;<span class=leancloud-visitors-count></span>&nbsp;次阅读
                     </span>&nbsp;</div>
@@ -170,19 +170,43 @@
 </div></li>
 <li>
 <p>修改配置文件 vim /etc/profile 添加如下：</p>
+<ul>
+<li>
+<p>方案一</p>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
 <pre tabindex="0" class="chroma"><code><span class="lnt">1
 </span><span class="lnt">2
 </span><span class="lnt">3
+</span><span class="lnt">4
 </span></code></pre></td>
 <td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">JAVA_HOME</span><span class="o">=</span>/usr/local/java/jdk1.8.0_301 <span class="nv">CLASSPATH</span><span class="o">=</span><span class="nv">$JAVA_HOME</span>/jre/lib/ext:<span class="nv">$JAVA_HOME</span>/lib/tools.jar 
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nv">JAVA_HOME</span><span class="o">=</span>/usr/local/java/jdk1.8.0_301
+</span></span><span class="line"><span class="cl"><span class="nv">CLASSPATH</span><span class="o">=</span><span class="nv">$JAVA_HOME</span>/jre/lib/ext:<span class="nv">$JAVA_HOME</span>/lib/tools.jar 
 </span></span><span class="line"><span class="cl"><span class="nv">PATH</span><span class="o">=</span><span class="nv">$JAVA_HOME</span>/bin:<span class="nv">$PATH</span> 
 </span></span><span class="line"><span class="cl"><span class="nb">export</span> PATH JAVA_HOME CLASSPATHTH
 </span></span></code></pre></td></tr></table>
 </div>
 </div></li>
+<li>
+<p>方案二</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-shell" data-lang="shell"><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">JAVA_HOME</span><span class="o">=</span>/usr/local/java/jdk8
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">JRE_HOME</span><span class="o">=</span>/usr/local/java/jdk8/jre
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">CLASSPATH</span><span class="o">=</span>.:<span class="nv">$JAVA_HOME</span>/lib:<span class="nv">$JRE_HOME</span>/lib:<span class="nv">$CLASS_PATH</span>
+</span></span><span class="line"><span class="cl"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:<span class="nv">$JAVA_HOME</span>/bin:<span class="nv">$JRE_HOME</span>/bin:<span class="nv">$JAVA_HOME</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div></li>
+</ul>
+</li>
 <li>
 <p>加载配置文件</p>
 <div class="highlight"><div class="chroma">

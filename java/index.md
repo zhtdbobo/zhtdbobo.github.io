@@ -11,13 +11,24 @@
    tar -zxvf jdk-8-linux-x64.tar.gz -C /usr/local/java
    ```
 
-2. 修改配置文件 vim /etc/profile 添加如下： 
+2. 修改配置文件 vim /etc/profile 添加如下：
 
-   ```shell
-   JAVA_HOME=/usr/local/java/jdk1.8.0_301 CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar 
-   PATH=$JAVA_HOME/bin:$PATH 
-   export PATH JAVA_HOME CLASSPATHTH
-   ```
+   - 方案一
+
+       ```shell
+       JAVA_HOME=/usr/local/java/jdk1.8.0_301
+       CLASSPATH=$JAVA_HOME/jre/lib/ext:$JAVA_HOME/lib/tools.jar 
+       PATH=$JAVA_HOME/bin:$PATH 
+       export PATH JAVA_HOME CLASSPATHTH
+       ```
+   - 方案二
+
+       ```shell
+       export JAVA_HOME=/usr/local/java/jdk8
+       export JRE_HOME=/usr/local/java/jdk8/jre
+       export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib:$CLASS_PATH
+       export PATH=$PATH:$JAVA_HOME/bin:$JRE_HOME/bin:$JAVA_HOME
+       ```
 
 3. 加载配置文件 
 
