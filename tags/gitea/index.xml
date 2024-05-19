@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>gitea - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/gitea/</link>
+        <description>gitea - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 17 Nov 2023 14:49:46 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/gitea/" rel="self" type="application/rss+xml" /><item>
+    <title>gitea</title>
+    <link>https://zhtdbobo.github.io/gitea/</link>
+    <pubDate>Fri, 17 Nov 2023 14:49:46 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/gitea/</guid>
+    <description><![CDATA[[toc] 安装 安装mysql 安装git v1 使用yum安装，最高版本是1.8.3.1 1 yum install -y git v2 添加 End Point Package Repository，进行安装 1 2 3 yum remove -y git yum]]></description>
+</item>
+</channel>
+</rss>

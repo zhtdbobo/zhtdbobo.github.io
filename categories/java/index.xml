@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>java - 分类 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/categories/java/</link>
+        <description>java - 分类 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 05:54:42 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/java/" rel="self" type="application/rss+xml" /><item>
+    <title>jdk</title>
+    <link>https://zhtdbobo.github.io/jdk/</link>
+    <pubDate>Tue, 31 Oct 2023 05:54:42 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/jdk/</guid>
+    <description><![CDATA[[toc] win10 添加JAVA_HOME环境变量 1 E:\java\jdk 添加CLASSPATH环境变量 1 %JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar Path添加两项 %JAVA_HOME%\bin %JAVA_HOME%\jre\bin; 1 2 %JAVA_HOME%\bin %JAVA_HOME%\jre\bin; win11 添加JAVA_HOME环境变量 1 E:\java\jdk Pa]]></description>
+</item>
+<item>
+    <title>javafx</title>
+    <link>https://zhtdbobo.github.io/javafx/</link>
+    <pubDate>Fri, 05 May 2023 10:21:11 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/javafx/</guid>
+    <description><![CDATA[[TOC] JavaFXSceneBuilder 使用 下载 打包 在maven中引入依赖 1 2 3 4 5 6 7 8 9 10 11 12 &lt;dependencies&gt; &lt;dependency&gt; &lt;groupId&gt;org.openjfx&lt;/groupId&gt; &lt;artifactId&gt;javafx-controls&lt;/artifactId&gt; &lt;version&gt;15.0.1&lt;/version&gt; &lt;/dependency&gt; &lt;dependency&gt; &lt;groupId&gt;org.openjfx&lt;/groupId&gt; &lt;artifactId&gt;javafx-fxml&lt;/artifactId&gt; &lt;version&gt;15.0.1&lt;/version&gt; &lt;/dependency&gt; &lt;/dependencies&gt; 打包成exe， 创建一个类文件来调用xxApplicat]]></description>
+</item>
+</channel>
+</rss>

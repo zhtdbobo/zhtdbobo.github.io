@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>trigger - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/trigger/</link>
+        <description>trigger - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/trigger/" rel="self" type="application/rss+xml" /><item>
+    <title>触发器和存储过程</title>
+    <link>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</link>
+    <pubDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</guid>
+    <description><![CDATA[[toc] 存储过程procedure 创建存储过程 1 2 3 4 5 6 create procedure mypro(in a int,in b int,out sum int) begin set sum = a+b; end; call mypro(1,2,@s);-- 调用存储过程 select @s;-- 显示过程输出结果 call用来调用过程，]]></description>
+</item>
+</channel>
+</rss>

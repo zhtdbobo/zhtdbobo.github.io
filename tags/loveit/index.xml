@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>loveit - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/loveit/</link>
+        <description>loveit - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 03:52:04 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/loveit/" rel="self" type="application/rss+xml" /><item>
+    <title>LoveIt</title>
+    <link>https://zhtdbobo.github.io/loveit/</link>
+    <pubDate>Tue, 31 Oct 2023 03:52:04 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/loveit/</guid>
+    <description><![CDATA[[TOC] 美化 添加运行时间 拷贝 \themes\LoveIt\layouts\partials\footer.html 到 \layouts\partials\footer.html， 在 &lt;div class=&quot;footer-container&quot;&gt; 的下方添加: 1 2 3 &lt;div class=&#34;footer-line&#34;&gt; &lt;span id=&#34;run-time&#34;&gt;&lt;/span&gt; &lt;/div&gt; 修改custom.j]]></description>
+</item>
+</channel>
+</rss>

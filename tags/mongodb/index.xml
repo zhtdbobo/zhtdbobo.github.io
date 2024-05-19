@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mongodb - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/mongodb/</link>
+        <description>mongodb - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/mongodb/" rel="self" type="application/rss+xml" /><item>
+    <title>mongodb</title>
+    <link>https://zhtdbobo.github.io/mongodb/</link>
+    <pubDate>Mon, 23 Oct 2023 06:43:37 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/mongodb/</guid>
+    <description><![CDATA[[toc] 安装 官网 下载 上传到服务器并解压，移动到 /usr/local 目录下 1 2 3 tar -zxvf mongodb-linux-x86_64-rhel70-5.0.9.tgz mv mongodb-linux-x86_64-rhel70-5.0.9 mongodb mv mongodb-linux-x86_64-rhel70-5.0.9 /usr/local/mongodb 进入 mongodb 目录，并创建文件夹 data，在 data 文件夹下再创建 db 文件夹（用于存]]></description>
+</item>
+</channel>
+</rss>

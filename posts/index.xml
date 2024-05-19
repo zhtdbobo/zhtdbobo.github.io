@@ -1,0 +1,88 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>所有文章 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/posts/</link>
+        <description>所有文章 | 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Fri, 17 Nov 2023 14:49:46 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>gitea</title>
+    <link>https://zhtdbobo.github.io/gitea/</link>
+    <pubDate>Fri, 17 Nov 2023 14:49:46 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/gitea/</guid>
+    <description><![CDATA[[toc] 安装 安装mysql 安装git v1 使用yum安装，最高版本是1.8.3.1 1 yum install -y git v2 添加 End Point Package Repository，进行安装 1 2 3 yum remove -y git yum]]></description>
+</item>
+<item>
+    <title>nginx</title>
+    <link>https://zhtdbobo.github.io/nginx/</link>
+    <pubDate>Mon, 13 Nov 2023 10:59:48 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/nginx/</guid>
+    <description><![CDATA[[toc] 部署 下载 使用wget下载 下载到本地，上传到linux，解压缩 1 2 cd /home/用户 tar -zxvf nginx-1.24.0.tar.gz 安装依赖 1 yum install -y gcc-c++ pcre pcre-devel zlib zlib-devel openssl openssl-devel 安装 进入nginx目]]></description>
+</item>
+<item>
+    <title>redis命令</title>
+    <link>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Thu, 09 Nov 2023 08:16:58 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[[toc] 数据类型 键(key) 查看当前库所有key (匹配：keys *1) 1 keys * 判断某个key是否存在 1 exists key 查看你的key是什么类型 1 type key 删除指定的key]]></description>
+</item>
+<item>
+    <title>触发器和存储过程</title>
+    <link>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</link>
+    <pubDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</guid>
+    <description><![CDATA[[toc] 存储过程procedure 创建存储过程 1 2 3 4 5 6 create procedure mypro(in a int,in b int,out sum int) begin set sum = a+b; end; call mypro(1,2,@s);-- 调用存储过程 select @s;-- 显示过程输出结果 call用来调用过程，]]></description>
+</item>
+<item>
+    <title>django</title>
+    <link>https://zhtdbobo.github.io/django/</link>
+    <pubDate>Wed, 01 Nov 2023 02:22:58 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/django/</guid>
+    <description><![CDATA[[toc] 创建项目 支持websocket 版本 python：3.7 django：3.2.22 channels: 3.0.0 安装依赖 1 2 pip install channels == 3.2.22 pip install django == 3.0.0 创建app 添加成功会显]]></description>
+</item>
+<item>
+    <title>软件评测师下午题</title>
+    <link>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</link>
+    <pubDate>Tue, 31 Oct 2023 05:57:22 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</guid>
+    <description><![CDATA[[toc] 黑盒测试 测试方法有哪些不足 ==无法体现==出C、A/B之间的制约关系，比如当满足A/B（转换后对应的点数满足），但不满足C（乘机次数）的情]]></description>
+</item>
+<item>
+    <title>jdk</title>
+    <link>https://zhtdbobo.github.io/jdk/</link>
+    <pubDate>Tue, 31 Oct 2023 05:54:42 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/jdk/</guid>
+    <description><![CDATA[[toc] win10 添加JAVA_HOME环境变量 1 E:\java\jdk 添加CLASSPATH环境变量 1 %JAVA_HOME%\lib\dt.jar;%JAVA_HOME%\lib\tools.jar Path添加两项 %JAVA_HOME%\bin %JAVA_HOME%\jre\bin; 1 2 %JAVA_HOME%\bin %JAVA_HOME%\jre\bin; win11 添加JAVA_HOME环境变量 1 E:\java\jdk Pa]]></description>
+</item>
+<item>
+    <title>LoveIt</title>
+    <link>https://zhtdbobo.github.io/loveit/</link>
+    <pubDate>Tue, 31 Oct 2023 03:52:04 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/loveit/</guid>
+    <description><![CDATA[[TOC] 美化 添加运行时间 拷贝 \themes\LoveIt\layouts\partials\footer.html 到 \layouts\partials\footer.html， 在 &lt;div class=&quot;footer-container&quot;&gt; 的下方添加: 1 2 3 &lt;div class=&#34;footer-line&#34;&gt; &lt;span id=&#34;run-time&#34;&gt;&lt;/span&gt; &lt;/div&gt; 修改custom.j]]></description>
+</item>
+<item>
+    <title>hugo</title>
+    <link>https://zhtdbobo.github.io/hugo/</link>
+    <pubDate>Tue, 31 Oct 2023 03:45:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/hugo/</guid>
+    <description><![CDATA[[TOC] hugo 安装 win+r输入：powershell，使用 1 2 scoop install hugo-extended hugo version //查看是否安装成功 进入自己的文件夹，创建自己的网站 1 2 hugo new site jaridli cd jaridli 初始化当]]></description>
+</item>
+<item>
+    <title>shell</title>
+    <link>https://zhtdbobo.github.io/shell/</link>
+    <pubDate>Mon, 30 Oct 2023 09:07:22 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/shell/</guid>
+    <description><![CDATA[文件重命名 使用date cp：复制一个文件或文件夹 -r ：递归持续复制，用于目录的复制行为； -f ：为强制 (force) 的意思，若有重复或其它疑问时，不会询问使用]]></description>
+</item>
+</channel>
+</rss>

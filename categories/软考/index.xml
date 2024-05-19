@@ -1,0 +1,32 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>软考 - 分类 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/</link>
+        <description>软考 - 分类 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Tue, 31 Oct 2023 05:57:22 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/%E8%BD%AF%E8%80%83/" rel="self" type="application/rss+xml" /><item>
+    <title>软件评测师下午题</title>
+    <link>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</link>
+    <pubDate>Tue, 31 Oct 2023 05:57:22 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AF%84%E6%B5%8B%E5%B8%88%E4%B8%8B%E5%8D%88%E9%A2%98/</guid>
+    <description><![CDATA[[toc] 黑盒测试 测试方法有哪些不足 ==无法体现==出C、A/B之间的制约关系，比如当满足A/B（转换后对应的点数满足），但不满足C（乘机次数）的情]]></description>
+</item>
+<item>
+    <title>软件设计师-大题</title>
+    <link>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88-%E5%A4%A7%E9%A2%98/</link>
+    <pubDate>Thu, 19 Oct 2023 06:25:08 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88-%E5%A4%A7%E9%A2%98/</guid>
+    <description><![CDATA[[TOC] 数据流图DFD 基本图形 图形含义 数据流、加工、数据存储（文件）、外部实体 案例 分层 结构化、自定向下 数据字典 符号含义 数据平衡原则 父图和子图（如顶]]></description>
+</item>
+<item>
+    <title>软件设计师-选择题</title>
+    <link>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88-%E9%80%89%E6%8B%A9%E9%A2%98/</link>
+    <pubDate>Sun, 15 Oct 2023 13:52:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E8%BD%AF%E4%BB%B6%E8%AE%BE%E8%AE%A1%E5%B8%88-%E9%80%89%E6%8B%A9%E9%A2%98/</guid>
+    <description><![CDATA[[toc] 题目分布 上午场：75题（75分），45分及格 下午场：数据流图、数据库、UML、c语言算法、c++/java面向对象编程+设计模式 计算机组成]]></description>
+</item>
+</channel>
+</rss>

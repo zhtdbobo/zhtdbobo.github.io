@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>sql - 分类 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/categories/sql/</link>
+        <description>sql - 分类 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 09 Nov 2023 08:16:58 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/categories/sql/" rel="self" type="application/rss+xml" /><item>
+    <title>redis命令</title>
+    <link>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Thu, 09 Nov 2023 08:16:58 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[[toc] 数据类型 键(key) 查看当前库所有key (匹配：keys *1) 1 keys * 判断某个key是否存在 1 exists key 查看你的key是什么类型 1 type key 删除指定的key]]></description>
+</item>
+<item>
+    <title>触发器和存储过程</title>
+    <link>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</link>
+    <pubDate>Mon, 06 Nov 2023 01:11:13 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/%E5%AD%98%E5%82%A8%E8%BF%87%E7%A8%8B%E5%92%8C%E8%A7%A6%E5%8F%91%E5%99%A8/</guid>
+    <description><![CDATA[[toc] 存储过程procedure 创建存储过程 1 2 3 4 5 6 create procedure mypro(in a int,in b int,out sum int) begin set sum = a+b; end; call mypro(1,2,@s);-- 调用存储过程 select @s;-- 显示过程输出结果 call用来调用过程，]]></description>
+</item>
+</channel>
+</rss>

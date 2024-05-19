@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>git - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/git/</link>
+        <description>git - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/git/" rel="self" type="application/rss+xml" /><item>
+    <title>git</title>
+    <link>https://zhtdbobo.github.io/git/</link>
+    <pubDate>Sat, 28 Oct 2023 12:10:35 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/git/</guid>
+    <description><![CDATA[[toc] 基本使用 创建本地的git用户信息 项目级别/仓库级别 1 2 git config user.name lyb_pro git config user.email jaridli_pro@163.com 操作系统用户级别 1 2 git config --global user.name lyb git config --global user.email jaridli@163.com 生成ssh密钥配置到git 判]]></description>
+</item>
+</channel>
+</rss>

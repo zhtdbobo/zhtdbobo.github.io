@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>mysql - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/mysql/</link>
+        <description>mysql - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Sun, 16 Apr 2023 02:21:05 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/mysql/" rel="self" type="application/rss+xml" /><item>
+    <title>mysql</title>
+    <link>https://zhtdbobo.github.io/mysql/</link>
+    <pubDate>Sun, 16 Apr 2023 02:21:05 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/mysql/</guid>
+    <description><![CDATA[[toc] 安装mysql 将下载好的mysql上传到服务器 将mysql的tar.gz文件上传到服务器/home/software文件夹下 tar -zxvf mysql-5.7.40-el7-x86_64.tar.gz 解压 mv mysql-5.7.40-el7-x86_64]]></description>
+</item>
+</channel>
+</rss>

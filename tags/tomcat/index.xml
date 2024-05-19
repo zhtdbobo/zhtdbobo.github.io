@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>tomcat - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/tomcat/</link>
+        <description>tomcat - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/tomcat/" rel="self" type="application/rss+xml" /><item>
+    <title>tomcat</title>
+    <link>https://zhtdbobo.github.io/tomcat/</link>
+    <pubDate>Thu, 19 Oct 2023 07:49:23 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/tomcat/</guid>
+    <description><![CDATA[[toc] 基础安装 下载tomcat。官网 检查linux是否安装tomcat 1 rpm -qa | grep tomcat 将下载好的tomcat上传到服务器，解压缩并移动 1 2 3 tar -zxvf apache-tomcat-9.0.62.tar.gz mv]]></description>
+</item>
+</channel>
+</rss>

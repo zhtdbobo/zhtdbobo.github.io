@@ -1,0 +1,24 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>redis - 标签 - 博博拾光</title>
+        <link>https://zhtdbobo.github.io/tags/redis/</link>
+        <description>redis - 标签 - 博博拾光</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>jaridli@163.com (JaridLi)</managingEditor>
+            <webMaster>jaridli@163.com (JaridLi)</webMaster><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 09 Nov 2023 08:16:58 &#43;0000</lastBuildDate><atom:link href="https://zhtdbobo.github.io/tags/redis/" rel="self" type="application/rss+xml" /><item>
+    <title>redis命令</title>
+    <link>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</link>
+    <pubDate>Thu, 09 Nov 2023 08:16:58 &#43;0000</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/redis%E5%91%BD%E4%BB%A4/</guid>
+    <description><![CDATA[[toc] 数据类型 键(key) 查看当前库所有key (匹配：keys *1) 1 keys * 判断某个key是否存在 1 exists key 查看你的key是什么类型 1 type key 删除指定的key]]></description>
+</item>
+<item>
+    <title>redis</title>
+    <link>https://zhtdbobo.github.io/redis/</link>
+    <pubDate>Thu, 19 Oct 2023 23:00:39 &#43;0800</pubDate>
+    <author>JaridLi</author>
+    <guid>https://zhtdbobo.github.io/redis/</guid>
+    <description><![CDATA[[toc] 安装 上传文件到/home/software 解压 tar -zxvf redis-6.2.1.tar.gz 检查gcc版本 gcc &ndash;version 进入目录 cd redis-6.2.1 执行 make 跳过 make test 执行 make install 安装成功在 /usr/local/bin 配置 备份配置文件 mkdir /myredis cp]]></description>
+</item>
+</channel>
+</rss>
